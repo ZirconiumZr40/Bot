@@ -4,7 +4,7 @@ class Quote:
     # Initialisation d'une variable de classe, pour définir des poids cumulatifs
     currentTotalWeight = 0
 
-    def __init__(self, text, author, weight = 10):
+    def __init__(self, text, author, weight = 100):
         # Initialisation de attributs
         self.text = text
         self.author = author
@@ -24,6 +24,7 @@ quotesWeight = []
 
 
 """ Definition des citations """
+
 # Citations de VVK
 Quote("C'est moins simple", "Vincent V.K."),
 Quote("C'est moins marrant", "Vincent V.K."),
@@ -42,4 +43,7 @@ Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste H. (prove
 Quote("M. RINGOT, DEVANT !", "René L."),
 
 # Citations anonymes
-Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 1)
+Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 10)
+
+# Citiations diverses
+Quote("We can be do, to do. What we want to do!", "François H.", 10)
