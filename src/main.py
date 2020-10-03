@@ -40,7 +40,7 @@ async def contribution(ctx):
 @bot.command()
 async def citation(ctx):
     # On choisi une citation
-    quote = choice(quotes)
+    quote = choices(quotes, quotesWeight, 1)
 
     # On créé un embed
     embed = Embed(title=quote.text)
