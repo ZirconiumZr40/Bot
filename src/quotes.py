@@ -1,3 +1,6 @@
+# Import du random
+from random import choices
+
 # Structure des citations
 class Quote:
 
@@ -16,7 +19,10 @@ class Quote:
         quotes.append(self)
         quotesWeight.append(Quote.currentTotalWeight)
 
-
+# Tirage d'une citation
+def random_quote():
+    # On return une citation au hasard
+    return choices(quotes, cum_weights = quotesWeight, k = 1)[0]
 
 # Création des listes des citations
 quotes = []

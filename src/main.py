@@ -3,14 +3,13 @@
 # Import des libs system
 from dotenv import load_dotenv
 from os import getenv
-from random import choices
 
 # Importation de l'api Discord
 from discord.ext import commands
 from discord import Embed, Game
 
 # On importe nos ressources
-from quotes import quotes, quotesWeight
+from quotes import random_quote
 
 
 
@@ -50,7 +49,7 @@ async def contribution(ctx):
 @bot.command()
 async def citation(ctx):
     # On choisi une citation
-    quote = choices(quotes, cum_weights = quotesWeight, k = 1)[0]
+    quote = random_quote()
 
     # On créé un embed
     embed = Embed(title=quote.text)
