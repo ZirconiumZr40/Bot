@@ -15,7 +15,7 @@ quotes = [
     # Citations de Stefano
     Quote("Le cahier de prépa est à jour", "Stefano S."),
     Quote("Reviens dans une heure", "Stefano S."),
-    Quote("Ne seront lues que les réponses dont les _résultats ou mots importants sont ENCADRÉS_, et dont on a vérifié l'_HOMOGÉNÉIRÉ_", "Stefano S."),
+    Quote("Ne seront lues que les réponses dont les __résultats ou mots importants sont ENCADRÉS__, et dont on a vérifié l'__HOMOGÉNÉITÉ__", "Stefano S."),
 
     # Citations de Baptiste
     Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste H. (proverbe africain)"),
