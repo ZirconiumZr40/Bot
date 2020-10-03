@@ -8,7 +8,7 @@ class Quote:
 quotes = [
     # Citations de VVK
     Quote("C'est moins simple", "Vincent Van Kerckhove"),
-    Quote("C'est moins marant", "Vincent Van Kerckhove"),
+    Quote("C'est moins marrant", "Vincent Van Kerckhove"),
     Quote("On va pas être copain", "Vincent Van Kerckhove"),
 
     # Citations de Stefano
@@ -17,4 +17,7 @@ quotes = [
 
     # Citations de Baptiste
     Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste Huber (proverbe africain)"),
+
+    # Citations de René
+    Quote("M. RINGOT, DEVANT !", "René Lapole"),
 ]
