@@ -1,14 +1,20 @@
+""" Import des librairies & ressources """
+
 # Import des libs system
 from dotenv import load_dotenv
 from os import getenv
-from random import choice
+from random import choices
 
-# Importation de l'api discord
+# Importation de l'api Discord
 from discord.ext import commands
 from discord import Embed, Game
 
 # On importe nos ressources
-from quotes import quotes
+from quotes import quotes, quotesWeight
+
+
+
+""" Initialisation du bot """
 
 # On load l'environement
 load_dotenv()
@@ -23,6 +29,10 @@ async def on_ready():
 
     # On update le status
     await bot.change_presence(activity=Game('https://github.com/NathanFallet/MPSI.py'))
+
+
+
+""" Définition des commandes """
 
 # Commande de ping
 @bot.command()
@@ -40,7 +50,7 @@ async def contribution(ctx):
 @bot.command()
 async def citation(ctx):
     # On choisi une citation
-    quote = choice(quotes)
+    quote = choices(quotes, cum_weights = quotesWeight, k = 1)[0]
 
     # On créé un embed
     embed = Embed(title=quote.text)
@@ -48,6 +58,10 @@ async def citation(ctx):
 
     # On envoit
     await ctx.send(embed=embed)
+
+
+
+""" Lancement du bot """
 
 # Ajout des listeners
 bot.add_listener(on_ready)
