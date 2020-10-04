@@ -18,7 +18,7 @@ from quotes import random_quote
 bot = commands.Bot(command_prefix='.')
 
 # Quand le bot est pret
-@bot.event
+@bot.listen()
 async def on_ready():
     # On log la connexion
     print('Logged on as {0}!'.format(bot.user))
@@ -37,9 +37,18 @@ async def ping(ctx):
 
 # Commande de reboot
 @bot.command()
+@commands.is_owner()
 async def reboot(ctx):
     # On reboot le bot
     system('sh start.sh')
+    await ctx.bot.logout()
+    quit()
+
+# Commande de stop
+@bot.command()
+@commands.is_owner()
+async def stop(ctx):
+    # On stop le bot
     await ctx.bot.logout()
     quit()
 

@@ -2,6 +2,8 @@
 
 # Import de l'api
 from quart import Quart
+from bot import bot
+from os import system
 
 
 
@@ -18,3 +20,12 @@ app = Quart(__name__)
 @app.route('/')
 async def hello():
     return 'hello'
+
+# Pull
+@app.route('/pull')
+async def pull():
+    # On reboot le bot
+    system('git pull && sh start.sh')
+    await bot.logout()
+    quit()
+    return 'OK'
