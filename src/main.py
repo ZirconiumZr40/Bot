@@ -19,9 +19,6 @@ from channels import channelsForResponses
 # On load l'environement
 load_dotenv()
 
-# On init le bot
-bot = commands.Bot(command_prefix='.')
-
 # Quand le bot est pret
 async def on_ready():
     # On log la connexion
@@ -93,4 +90,4 @@ async def on_message(message):
 bot.add_listener(on_ready)
 
 # On le connecte au serveur
-bot.run("NjE0MDkwMzQxMzg5NDM0ODgw.XV6aMg.TX812MQBF-lUvnhMwnGrViS36sw")
+bot.run(getenv('TOKEN'))
