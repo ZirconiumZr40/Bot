@@ -20,7 +20,7 @@ from channels import channelsForResponses
 load_dotenv()
 
 # On init le bot
-bot = commands.Bot()
+bot = commands.Bot(command_prefix='.')
 
 # Quand le bot est pret
 async def on_ready():
