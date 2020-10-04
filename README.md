@@ -7,7 +7,7 @@ Pour cela, il vous faut créer un fork de ce repository, et le soumettre en pull
 
 Commandes implémentées pour le moment :
  - .ping (Pong)
- - .contribution
+ - .contribution (Affiche les infos de contribution)
  - .quote (Affiche une citation)
 
 

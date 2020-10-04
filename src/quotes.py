@@ -47,9 +47,13 @@ Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste H. (prove
 
 # Citations de René
 Quote("M. RINGOT, DEVANT !", "René L.")
+Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet!", "René L.", 50)
 
 # Citations anonymes
-Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 10)
+Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 20)
 
 # Citiations diverses
-Quote("We can be do, to do. What we want to do!", "François H.", 10)
+Quote("We can be do, to do. What we want to do!", "François H.", 20)
+Quote("Yes, **WE CAN!**", "Barrack O.", 20)
+Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n \
+    Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich N.", 40000)
