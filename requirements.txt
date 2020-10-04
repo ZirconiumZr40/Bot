@@ -1,1 +1,4 @@
-pytest discord.py python-dotenv quart
+pytest
+discord.py
+python-dotenv
+quart
