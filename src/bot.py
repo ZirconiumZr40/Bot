@@ -18,15 +18,13 @@ from quotes import random_quote
 bot = commands.Bot(command_prefix='.')
 
 # Quand le bot est pret
+@bot.event
 async def on_ready():
     # On log la connexion
     print('Logged on as {0}!'.format(bot.user))
 
     # On update le status
     await bot.change_presence(activity=Game('https://github.com/MPSI1Thuillier/Bot'))
-
-# Ajout des listeners
-bot.add_listener(on_ready)
 
 
 """ Définition des commandes """
