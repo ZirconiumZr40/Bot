@@ -19,6 +19,9 @@ from channels import channelsForResponses
 # On load l'environement
 load_dotenv()
 
+# On init le bot
+bot = commands.Bot()
+
 # Quand le bot est pret
 async def on_ready():
     # On log la connexion
