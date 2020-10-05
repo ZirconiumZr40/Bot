@@ -49,13 +49,17 @@ Quote("Le cahier de prépa est à jour", "Stefano S.")
 Quote("Reviens dans une heure", "Stefano S.")
 Quote("Ne seront lues que les réponses dont les __résultats ou mots importants sont ENCADRÉS__, et dont on a vérifié l'__HOMOGÉNÉITÉ__", "Stefano S.")
 Quote("On connait une tension, on cherche une tension", "Stefano S.")
+Quote("On passe au plat de résistance ?", "Stefano S.")
 
 # Citations de Baptiste
 Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste H. (proverbe africain)")
 
 # Citations de René
 Quote("M. RINGOT, **DEVANT !**", "René L.")
-Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet!", "René L.", 40)
+Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.", 40)
+
+# Citations de Claire
+Quote("Ok guys", "Claire T.B.")
 
 # Citations philosophes/auteurs
 Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" + \
