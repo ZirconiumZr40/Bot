@@ -42,11 +42,13 @@ Quote("C'est moins simple", "Vincent V.K.")
 Quote("C'est moins marrant", "Vincent V.K.")
 Quote("On va pas être copain", "Vincent V.K.")
 Quote("C'est presque évident", "Vincent V.K.")
+Quote("Je ressemble plus à une vache que vous à des scientifiques", "Vincent V.K.")
 
 # Citations de Stefano
 Quote("Le cahier de prépa est à jour", "Stefano S.")
 Quote("Reviens dans une heure", "Stefano S.")
 Quote("Ne seront lues que les réponses dont les __résultats ou mots importants sont ENCADRÉS__, et dont on a vérifié l'__HOMOGÉNÉITÉ__", "Stefano S.")
+Quote("On connait une tension, on cherche une tension", "Stefano S.")
 
 # Citations de Baptiste
 Quote("Tout seul on va plus vite, ensemble on va plus loin", "Baptiste H. (proverbe africain)")
