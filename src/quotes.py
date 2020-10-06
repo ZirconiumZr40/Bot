@@ -41,7 +41,7 @@ def random_quote():
     # On regarde si la liste contient des quotes
     if len(quotesToPull) == 0:
         # On prend 10 éléments de la liste, avec répétition, car on peut pas faire autrement
-        quotesToPull = choices(quotes, cum_weights = quotesWeight, k = 10)
+        quotesToPull = choices(quotes, cum_weights = quotesWeight, k = 12)
         toDelete = []
 
         # On cherche les répétitions
@@ -58,7 +58,7 @@ def random_quote():
             del quotesToPull[i]
 
     # Puis on return une citation au hasard et l'enlève de la liste
-    return quotesToPull.pop(randint(0, len(quotesToPull)))
+    return quotesToPull.pop(randint(0, len(quotesToPull) - 1))
 
 # Création des listes des citations
 quotes = []
@@ -110,7 +110,7 @@ Quote("Guys?!", "Claire T.B.")
 Quote("Salut, ça va ? Il va comment ton chat ?\nAh bas, c'est un chat effrayé par les concombres !", "Claire T.B.")
 Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.")
 Quote("Un panda, c'est pas un raton-laveur.", "Claire T.B.")
-Quote("C'est vraiment cette heure là", "Claire T.B.")
+Quote("C'est vraiment cette heure là.", "Claire T.B.")
 Quote("A washing raton.", "Claire T.B.", 70)
 
 # Citations philosophes/auteurs
@@ -127,4 +127,4 @@ Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 30)
 Quote("We can be do, to do. What we want to do!", "François H.", 30)
 Quote("Yes, **WE CAN!**", "Barrack O.", 30)
 Quote("Ich bin ein Berliner!", "John F. K.", 30)
-Quote("Il ne faut jamais croire les citations trouvées sur Internet", "Albert Einstein", 30)
+Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
