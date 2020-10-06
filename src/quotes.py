@@ -37,6 +37,7 @@ quotesToPull = []
 # Tirage d'une citation
 def random_quote():
     """ Tire une citation au hasard dans la liste pondéré des citations """
+    global quotesToPull
     # On regarde si la liste contient des quotes
     if len(quotesToPull) == 0:
         # On prend 10 éléments de la liste, avec répétition, car on peut pas faire autrement
