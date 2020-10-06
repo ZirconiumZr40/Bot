@@ -51,11 +51,14 @@ def random_quote():
                     if j not in toDelete:
                         toDelete.append(j)
 
+        toDelete.sort()
+        toDelete.reverse()
         # Et on les éliminent
         for i in toDelete:
             del quotesToPull[i]
 
     # Puis on return une citation au hasard et l'enlève de la liste
+    print(quotesToPull)
     return quotesToPull.pop(randint(0, len(quotesToPull)))
 
 # Création des listes des citations
