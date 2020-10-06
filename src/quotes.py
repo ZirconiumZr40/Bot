@@ -69,6 +69,7 @@ Quote("Ne seront lues que les réponses dont les __résultats ou mots importants
 Quote("On connait une tension, on cherche une tension.", "Stefano S.")
 Quote("On passe au plat de résistance ?", "Stefano S.")
 Quote("Les notes, on s'en fout ! Si tu veux, je te met un 20.", "Stefano S.")
+Quote("Non, ça sonne à 13h05.", "Stefano S.")
 
 # Citations de Baptiste
 Quote("Tout seul on va plus vite, ensemble on va plus loin.", "Baptiste H. (proverbe africain)")
