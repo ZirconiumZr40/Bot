@@ -1,5 +1,5 @@
 # Import du random
-from random import choices
+from random import choices, randint
 
 
 # Structure des citations
@@ -31,11 +31,16 @@ class Quote:
 
 
 
+global quotesToPull
+quotesToPull = []
+
 # Tirage d'une citation
 def random_quote():
     """ Tire une citation au hasard dans la liste pondéré des citations """
     # On return une citation au hasard
-    return choices(quotes, cum_weights = quotesWeight, k = 1)[0]
+    if len(quotesToPull) == 0:
+        quotesToPull = choices(quotes, cum_weights = quotesWeight, k = 10)
+    return quotesToPull.pop(randint(0, len(quotesToPull) - 1))
 
 # Création des listes des citations
 quotes = []
