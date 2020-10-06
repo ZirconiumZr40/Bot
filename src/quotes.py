@@ -59,6 +59,7 @@ Quote("C'est presque évident.", "Vincent V.K.")
 Quote("Je ressemble plus à une vache que vous à des scientifiques.", "Vincent V.K.")
 Quote("C'est **tragique !**", "Vincent V.K.")
 Quote("Ça, c'est tout à fait remarquable.", "Vincent V.K.")
+Quote("Pas de regrets, vous avez pas le niveau !", "Vincent V.K.")
 Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
 
@@ -68,7 +69,7 @@ Quote("Reviens dans une heure.", "Stefano S.")
 Quote("Ne seront lues que les réponses dont les __résultats ou mots importants sont ENCADRÉS__, et dont on a vérifié l'__HOMOGÉNÉITÉ__.", "Stefano S.")
 Quote("On connait une tension, on cherche une tension.", "Stefano S.")
 Quote("On passe au plat de résistance ?", "Stefano S.")
-Quote("Les notes, on s'en fout ! Si tu veux, je te met un 20.", "Stefano S.")
+Quote("Les notes, on s'en fout ! Si tu veux, je te mets un 20.", "Stefano S.")
 Quote("Non, ça sonne à 13h05.", "Stefano S.")
 
 # Citations de Baptiste
