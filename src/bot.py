@@ -10,6 +10,9 @@ from discord import Embed, Game
 # On importe nos ressources
 from quotes import random_quote
 
+# Import du random
+from random import randint
+
 
 
 """ Initialisation du bot """
@@ -70,3 +73,8 @@ async def citation(ctx):
 
     # On envoit
     await ctx.send(embed=embed)
+
+@bot.command()
+async def pileface(ctx):
+    # On décide et envoie le résultat
+    ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
