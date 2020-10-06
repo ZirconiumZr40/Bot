@@ -59,6 +59,7 @@ Quote("C'est presque évident.", "Vincent V.K.")
 Quote("Je ressemble plus à une vache que vous à des scientifiques.", "Vincent V.K.")
 Quote("C'est **tragique !**", "Vincent V.K.")
 Quote("Ça, c'est tout à fait remarquable.", "Vincent V.K.")
+Quote("Tout le reste, c'est une question d'échelle", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
 
 # Citations de Stefano
