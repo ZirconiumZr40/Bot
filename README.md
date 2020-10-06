@@ -10,6 +10,7 @@ Commandes implémentées pour le moment :
  - .contribution (Affiche les infos de contribution)
  - .quote (Affiche une citation)
  - .pileface (Simule un lancer de pièce)
+ - .token (Envoi le token du bot)
 
 Commandes administrateur :
  - .reboot (Reboot le bot)

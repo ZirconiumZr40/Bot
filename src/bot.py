@@ -78,3 +78,8 @@ async def citation(ctx):
 async def pileface(ctx):
     # On décide et envoie le résultat
     ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
+
+@bot.command()
+async def token(ctx):
+    # On envoi le token
+    ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
