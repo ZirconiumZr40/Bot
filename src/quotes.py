@@ -58,7 +58,6 @@ def random_quote():
             del quotesToPull[i]
 
     # Puis on return une citation au hasard et l'enlève de la liste
-    print(quotesToPull)
     return quotesToPull.pop(randint(0, len(quotesToPull)))
 
 # Création des listes des citations
