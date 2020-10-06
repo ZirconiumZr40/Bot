@@ -108,6 +108,7 @@ Quote("Guys?!", "Claire T.B.")
 Quote("Salut, ça va ? Il va comment ton chat ?\nAh bas, c'est un chat effrayé par les concombres !", "Claire T.B.")
 Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.")
 Quote("Un panda, c'est pas un raton-laveur.", "Claire T.B.")
+Quote("C'est vraiment cette heure là", "Claire T.B.")
 Quote("A washing raton.", "Claire T.B.", 70)
 
 # Citations philosophes/auteurs
