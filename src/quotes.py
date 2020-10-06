@@ -43,16 +43,18 @@ def random_quote():
         quotesToPull = choices(quotes, cum_weights = quotesWeight, k = 10)
         toDelete = []
 
-        # On élimine les répétitions
+        # On cherche les répétitions
         for i in range(len(quotesToPull)):
             for j in range(len(quotesToPull)):
                 if quotesToPull[i] == quotesToPull[j] and i < j:
                     if j not in toDelete:
                         toDelete.append(j)
 
+        # Et on les éliminent
         for i in toDelete:
             del quotesToPull[i]
 
+    # Puis on return une citation au hasard et l'enlève de la liste
     return quotesToPull.pop(randint(0, len(quotesToPull)))
 
 # Création des listes des citations
@@ -102,13 +104,15 @@ Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René
 # Citations de Claire
 Quote("Ok guys!", "Claire T.B.")
 Quote("Guys?!", "Claire T.B.")
+Quote("Salut, ça va ? Il va comment ton chat ?\nAh bas, c'est un chat effrayé par les concombres !", "Claire T.B.")
+Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.")
 
 # Citations philosophes/auteurs
 Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" + \
       "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich N.", 70)
-Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué ! Comment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich N.", 70)
+Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich N.", 70)
 Quote("Seule deux choses sont infinies, l'univers et la bêtise humaine.\nMais pour l'univers, je n'en ai pas encore la certitude absolue.", "Albert Einstein", 70)
-Quote("Maintenant j'ai devenu la Mort, le Destruteur de Monde.", "Robert O.", 70)
+Quote("Maintenant j'ai devenu la Mort, le Destructeur de Monde.", "Robert O.", 70) # La faute est authentique à la citation originelle
 
 # Citations anonymes
 Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 30)
