@@ -13,6 +13,7 @@ Commandes implémentées pour le moment :
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
 
+
 Commandes administrateur :
  - .reboot (Reboot le bot)
  - .stop (Stop le bot)

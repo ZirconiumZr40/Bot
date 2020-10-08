@@ -3,6 +3,14 @@ from random import randint
 
 # On définit les différents objets
 class Type:
+    """
+    L'objet Type est utilisé pour représenter un type d'objet.\n
+    Il possède plusieurs attributs :
+     - name : Définit le nom du type
+     - stat : Définit quelle stat est attaché au type
+     - statModifier: Définit le multiplicateur à appliquer à la stat
+     - gender : Définit si l'objet est masculin ou féminin ou pluriel
+    """
     def __init__(self, name, stat, statModifier, gender):
         self.name = name
         self.stat = stat
@@ -15,6 +23,15 @@ class Type:
         return self.name
 
 class Material:
+    """
+    L'objet Material est utilisé pour représenter un matériau pour un objet.\n
+    Il possède plusieurs attributs :
+     - name : Définit le nom du matériau
+     - stat : Définit quelle stat est attaché au matériau
+     - statModifier: Définit le multiplicateur à appliquer à la stat
+     - feminine : Définit quel féminin appliquer à l'objet
+     - plural : Définit quel pluriel appliquer à l'objet
+    """
     def __init__(self, name, stat, quality, statModifier, feminine, plural = 0):
         self.name = name
         self.stat = stat
@@ -29,6 +46,15 @@ class Material:
         return self.name
 
 class Attribute:
+    """
+    L'objet Attribute est utilisé pour représenter un attribut pour un objet.\n
+    Il possède plusieurs attributs :
+     - name : Définit le nom de l'attribut
+     - stat : Définit quelle stat est attaché à l'attribut
+     - statModifier: Définit le multiplicateur à appliquer à la stat
+     - feminine : Définit quel féminin appliquer à l'objet
+     - plural : Définit quel pluriel appliquer à l'objet
+    """
     def __init__(self, name, stat, qualityModifier, statModifier, feminine, plural = 0):
         self.name = name
         self.stat = stat
@@ -43,6 +69,13 @@ class Attribute:
         return self.name
 
 class Quality:
+    """
+    L'objet Quality est utilisé pour représenter une qualité d'objet, determinant combien de stats il aura.\n
+    Il possède plusieurs attributs :
+     - name : Définit le nom de la qualité
+     - multiplier: Définit le multiplicateur à appliquer aux stats de l'objet
+     - totalStats : Définit combien de stats rajoute cette qualité
+    """
     def __init__(self, name, multiplier, totalStats):
         self.name = name
         self.multiplier = multiplier
@@ -52,6 +85,14 @@ class Quality:
         return self.name
 
 class Stat:
+    """
+    L'objet Stat est utilisé pour représenter une stat pour un objet.\n
+    Il possède plusieurs attributs :
+     - name : Définit le nom de la stat
+     - type : Définit si la stat est relative (%), flat ou autre
+     - modifier: Définit le multiplicateur à appliquer à la stat
+     - special : Définit si la stat apparait aléatoirement ou est spécifique à un attibut/matériau
+    """
     def __init__(self, name, type, modifier, special = False):
         self.name = name
         self.type = type
@@ -65,12 +106,14 @@ class Stat:
 
 
 
+# Listes pour l'indexation
 stats = []
 materials = []
 types = []
 attributes = []
 
 
+# Stats classiques
 Attaque = Stat("Attaque", "Dual", 1)
 Résistance = Stat("Résistance", "Dual", 1)
 Intelligence = Stat("Intelligence", "Dual", 1)
@@ -109,7 +152,7 @@ Brulure = Stat("Brûlure", "Relative", 0.3)
 Electrocution = Stat("Électrocution", "Relative", 0.4)
 Efficacité = Stat("Efficacité", "Relative", 0.6)
 
-# Unique Stats
+# Stats spéciales
 DégâtsMortsVivants = Stat("Dêgats contre les morts-vivants", "Relative", 1, True)
 PatriotismeAveugle = Stat("Patriotisme Aveugle", "Relative", 1, True)
 CrimesGuerre = Stat("Crimes de Guerre", "Flat", 8.8, True)
@@ -118,13 +161,13 @@ Triche = Stat("Triche", "Relative", 2, True)
 PacteDiable = Stat("Pactes avec le diable", "FixedFlat", 666, True)
 Dinousaures = Stat("Dinousaures", "Flat", 7, True)
 
-# System Stats
-Null = Stat("Null", "Dual", 0, True) # Used when no aditional stat is added
-Random = Stat("Random", "Dual", 0, True) # Add a random stat
-Copy = Stat("Copy", "Dual", 0, True) # Copy the Type stat
+# Stats systèmes
+Null = Stat("Null", "Dual", 0, True) # Utilisé quand aucune stat additionelle est ajoutée
+Random = Stat("Random", "Dual", 0, True) # Utilisé pour obtenir une stat aléatoire
+Copy = Stat("Copy", "Dual", 0, True) # Utilisé pour copier la stat du Type
 
 
-# Definition of Types
+# Types
 Anneau = Type("Anneau", Sagesse, 0.8, 0)
 Armure = Type("Armure", Résistance, 2, 1)
 Épée = Type("Épée", Attaque, 1.4, 1)
@@ -187,7 +230,7 @@ Kunai = Type("Kunai", PénétrationPhysique, 0.8, 0)
 Taser = Type("Taser", Electrocution, 0.8, 0)
 
 
-# Definition of ItemMaterials
+# Materials
 doré = Material("doré", ArgentRécolté, 7, 1, 1)
 feu = Material("de feu", AptFeu, 5, 1, 0)
 glace = Material("de glace", AptGlace, 5, 1, 0)
@@ -245,7 +288,7 @@ platine = Material("de platine", Puissance, 7, 1.5, 0)
 lave = Material("de lave", AptFeu, 6, 2, 0)
 
 
-# Definition of ItemAttributes
+# Attributes
 Témor = Attribute("de Témor", Attaque, 2, 3, 0)
 Tamaire = Attribute("de Tamaire", Résistance, 2, 3, 0)
 magique = Attribute("magique", Intelligence, 1, 1.5, 0, 1)
@@ -329,7 +372,7 @@ Iego = Attribute("d'Iego", Dinousaures, 2, 1, 0)
 D4C = Attribute("d'Iforci", AptDimensionelle, 3, 1, 0)
 
 
-# Definition of Qualities
+# Quality
 Maudit = Quality("Maudit", -6, 6)
 Merdique = Quality("Merdique", -3, 2)
 Cassé = Quality("Cassé", -5, 0)
@@ -357,6 +400,7 @@ Ultime = Quality("Ultime", 16, 8)
 Omniscient = Quality("Omniscient", 10, 12)
 
 
+# Liste de hiéarchie des Quality
 qualities = [[Maudit],[Merdique, Cassé],[Mauvais,Poussiéreux],[Banal],[Commun,Curieux],[PeuCommun,Étrange],[Rare,Antique],[Précieux,Enchanté],[Mythique,Mystique],[Légendaire,Relique],[Divin,Démoniaque],[Dimensionel,Galactique],[Transcendant,Ultime,Omniscient]]
 
 

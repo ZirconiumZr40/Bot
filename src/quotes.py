@@ -123,6 +123,7 @@ Quote("Il y a des normes.", "Baptiste H.", 80)
 
 # Citations de René
 Quote("M. RINGOT, **DEVANT !**", "René L.")
+Quote("Il n'y a que des vielles version à la noix de coco !", "René L.")
 Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui crier dessus !", "René L.")
 Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.", 80)
 Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.", 80)
