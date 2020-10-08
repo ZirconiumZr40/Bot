@@ -10,6 +10,7 @@ from discord import Embed, Game
 # On importe nos ressources
 from quotes import random_quote
 from item_chest import generateItem
+from clear import clearChannel
 
 # Import du random
 from random import randint
@@ -97,6 +98,14 @@ async def item(ctx):
     embed.set_footer(text=text[1])
 
     await ctx.send(embed=embed)
+
+
+
+# Commande de clear
+@bot.command()
+async def clear(ctx):
+    # On supprime tout les messages de commandes du channel
+    await clearChannel(ctx)
 
 
 

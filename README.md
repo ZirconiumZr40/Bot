@@ -12,6 +12,7 @@ Commandes implémentées pour le moment :
  - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
+ - .clear (Supprime les messages de commandes)
 
 
 Commandes administrateur :
