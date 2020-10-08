@@ -9,6 +9,7 @@ Commandes implémentées pour le moment :
  - .ping (Pong)
  - .contribution (Affiche les infos de contribution)
  - .quote (Affiche une citation)
+ - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
 
