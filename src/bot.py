@@ -1,9 +1,9 @@
 """ Import des librairies & ressources """
 
-# Import des api system
+# Import des APIs system
 from os import system
 
-# Importation de l'api Discord
+# Importation de l'API Discord
 from discord.ext import commands
 from discord import Embed, Game
 
@@ -20,6 +20,8 @@ from random import randint
 # On init le bot
 bot = commands.Bot(command_prefix='.')
 
+
+
 # Quand le bot est pret
 @bot.listen()
 async def on_ready():
@@ -30,6 +32,7 @@ async def on_ready():
     await bot.change_presence(activity=Game('https://github.com/MPSI1Thuillier/Bot'))
 
 
+
 """ Définition des commandes """
 
 # Commande de ping
@@ -37,6 +40,8 @@ async def on_ready():
 async def ping(ctx):
     # On répond pong
     await ctx.send('Pong')
+
+
 
 # Commande de reboot
 @bot.command()
@@ -47,6 +52,8 @@ async def reboot(ctx):
     await ctx.bot.logout()
     quit()
 
+
+
 # Commande de stop
 @bot.command()
 @commands.is_owner()
@@ -55,11 +62,15 @@ async def stop(ctx):
     await ctx.bot.logout()
     quit()
 
+
+
 # Guide de la contribution
 @bot.command()
 async def contribution(ctx):
     # On explique comment fonctionne la contribution
     await ctx.send("Pour contribuer au fonctionnement du bot et l'améliorer, rendez vous sur https://github.com/MPSI1Thuillier/Bot")
+
+
 
 # Commande de citation
 @bot.command()
@@ -74,12 +85,18 @@ async def citation(ctx):
     # On envoit
     await ctx.send(embed=embed)
 
+
+
+# Commande de pile ou face
 @bot.command()
 async def pileface(ctx):
     # On décide et envoie le résultat
-    ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
+    await ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
 
+
+
+# Commande de token
 @bot.command()
 async def token(ctx):
     # On envoi le token
-    ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
+    await ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")

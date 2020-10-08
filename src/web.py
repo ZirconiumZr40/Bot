@@ -1,6 +1,6 @@
 """ Import des librairies & ressources """
 
-# Import de l'api
+# Import de l'API
 from quart import Quart
 from bot import bot
 from os import system
