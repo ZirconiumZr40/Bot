@@ -141,10 +141,10 @@ Quote("A washing raton.", "Claire T.B.", 80)
 
 # Citations de philosophes/auteurs
 Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" + \
-      "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich N.", 70)
-Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich N.", 70)
+      "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich Nietzsche", 70)
+Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich Nietzsche", 70)
 Quote("Seule deux choses sont infinies, l'univers et la bêtise humaine.\nMais pour l'univers, je n'en ai pas encore la certitude absolue.", "Albert Einstein", 70)
-Quote("Maintenant j'ai devenu la Mort, le Destructeur de Monde.", "Robert O.", 70) # La faute est authentique à la citation originelle
+Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.", "J. Robert Oppenheimer", 70) # La faute est authentique à la citation originelle
 
 
 # Citations des élèves - Note, pas fait pour les insultes, juste pour quand quelqu'un sort quelque chose de mémorable
@@ -157,7 +157,7 @@ Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 30)
 
 
 # Citiations diverses
-Quote("We can be do, to do. What we want to do!", "François H.", 30)
-Quote("Yes, **WE CAN!**", "Barrack O.", 30)
-Quote("Ich bin ein Berliner!", "John F. K.", 30)
+Quote("We can be do, to do. What we want to do!", "François Hollande", 30)
+Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
+Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)

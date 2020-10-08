@@ -42,6 +42,7 @@ async def on_ready():
 async def ping(ctx):
     # On répond pong
     await ctx.send('Pong')
+    await ctx.message.delete()
 
 
 
@@ -52,6 +53,7 @@ async def reboot(ctx):
     # On reboot le bot
     system('sh start.sh')
     await ctx.bot.logout()
+    await ctx.message.delete()
     quit()
 
 
@@ -62,7 +64,18 @@ async def reboot(ctx):
 async def stop(ctx):
     # On stop le bot
     await ctx.bot.logout()
+    await ctx.message.delete()
     quit()
+
+
+
+# Commande de clear
+@bot.command()
+@commands.is_owner()
+async def clear(ctx):
+    # On supprime tout les messages de commande et du bot du channel
+    await clearChannel(ctx)
+    await ctx.message.delete()
 
 
 
@@ -71,6 +84,7 @@ async def stop(ctx):
 async def contribution(ctx):
     # On explique comment fonctionne la contribution
     await ctx.send("Pour contribuer au fonctionnement du bot et l'améliorer, rendez vous sur https://github.com/MPSI1Thuillier/Bot")
+    await ctx.message.delete()
 
 
 
@@ -86,6 +100,7 @@ async def citation(ctx):
 
     # On envoit
     await ctx.send(embed=embed)
+    await ctx.message.delete()
 
 
 
@@ -98,14 +113,7 @@ async def item(ctx):
     embed.set_footer(text=text[1])
 
     await ctx.send(embed=embed)
-
-
-
-# Commande de clear
-@bot.command()
-async def clear(ctx):
-    # On supprime tout les messages de commandes du channel
-    await clearChannel(ctx)
+    await ctx.message.delete()
 
 
 
@@ -114,6 +122,7 @@ async def clear(ctx):
 async def pileface(ctx):
     # On décide et envoie le résultat
     await ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
+    await ctx.message.delete()
 
 
 
@@ -122,3 +131,4 @@ async def pileface(ctx):
 async def token(ctx):
     # On envoi le token
     await ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
+    await ctx.message.delete()

@@ -12,12 +12,12 @@ Commandes implémentées pour le moment :
  - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
- - .clear (Supprime les messages de commandes)
 
 
 Commandes administrateur :
  - .reboot (Reboot le bot)
  - .stop (Stop le bot)
+ - .clear (Supprime les messages de commande et du bot)
 
 
 Autres fonctionalitées implémentées :
@@ -27,3 +27,4 @@ Autres fonctionalitées implémentées :
 Fonctionalités rejetés :
  - Sentience
  - Fabrication automatique de pizzas
+ - Stockage des codes atomiques du Pakistan
