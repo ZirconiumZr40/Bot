@@ -9,6 +9,7 @@ from discord import Embed, Game
 
 # On importe nos ressources
 from quotes import random_quote
+from item_chest import generateItem
 
 # Import du random
 from random import randint
@@ -83,6 +84,18 @@ async def citation(ctx):
     embed.set_footer(text=quote.author)
 
     # On envoit
+    await ctx.send(embed=embed)
+
+
+
+# Commande d'item
+@bot.command()
+async def item(ctx):
+    #On gènere un item et l'envoi
+    text = generateItem()
+    embed = Embed(title=text[0], color=1)
+    embed.set_footer(text=text[1])
+
     await ctx.send(embed=embed)
 
 

@@ -100,7 +100,7 @@ Quote("Oui, bien sûr!", "Vincent V.K.")
 Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
-Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plus, du coup vous allez le refaire !", "Vincent V.K.", 80)
+Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.", 80)
 
 
 # Citations de Stefano
@@ -116,6 +116,7 @@ Quote("Non, ça sonne à 13h05.", "Stefano S.", 80)
 
 # Citations de Baptiste
 Quote("Tout seul on va plus vite, ensemble on va plus loin.", "Baptiste H. (proverbe africain)")
+Quote("Oh, c'est pas très sympatique ça.", "Baptiste H.")
 Quote("Il y a des normes.", "Baptiste H.", 80)
 
 
