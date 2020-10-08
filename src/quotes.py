@@ -97,6 +97,7 @@ Quote("C'est **tragique !**", "Vincent V.K.")
 Quote("Ça, c'est tout à fait remarquable.", "Vincent V.K.")
 Quote("Pas de regrets, vous avez pas le niveau !", "Vincent V.K.")
 Quote("Oui, bien sûr!", "Vincent V.K.")
+Quote("N'utilisez pas de blanco, n'utilisez pas de gomme. Encadrez vos erreurs !", "Vincent V.K.")
 Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
@@ -122,6 +123,7 @@ Quote("Il y a des normes.", "Baptiste H.", 80)
 
 # Citations de René
 Quote("M. RINGOT, **DEVANT !**", "René L.")
+Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui crier dessus !", "René L.")
 Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.", 80)
 Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.", 80)
 
