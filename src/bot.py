@@ -107,9 +107,9 @@ async def citation(ctx):
 # Commande d'item
 @bot.command()
 async def item(ctx):
-    #On gènere un item et l'envoi
+    # On gènere un item et l'envoi
     text = generateItem()
-    embed = Embed(title=text[0], color=1)
+    embed = Embed(title=text[0])
     embed.set_footer(text=text[1])
 
     await ctx.send(embed=embed)

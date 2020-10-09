@@ -111,7 +111,10 @@ Quote("Ne seront lues que les réponses dont les __résultats ou mots importants
 Quote("On connait une tension, on cherche une tension.", "Stefano S.")
 Quote("On passe au plat de résistance ?", "Stefano S.")
 Quote("Les notes, on s'en fout ! Si tu veux, je te mets un 20.", "Stefano S.")
-Quote("Il y a ampère à gauche et il y a ampère à droite", "Stefano S.")
+Quote("Il y a ampère à gauche et il y a ampère à droite.", "Stefano S.")
+Quote("Là la tension elle fluctue donc c'est pas facile.", "Stefano S.")
+Quote("Quelle horreur !", "Stefano S.")
+Quote("On ne peut pas faire de physique sans schéma.", "Stefano S.")
 Quote("Non, ça sonne à 13h05.", "Stefano S.", 80)
 
 
