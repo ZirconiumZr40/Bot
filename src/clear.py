@@ -5,7 +5,7 @@ async def clearChannel(ctx):
     for i in messages:
         try:
             # On checke les deux cas de figure et supprime
-            if i.author.id == ctx.bot.id:
+            if i.author.id == ctx.bot.user.id:
                 await i.delete(delay = 0.0)
             if i.content[0] == ".":
                 await i.delete(delay = 0.0)
