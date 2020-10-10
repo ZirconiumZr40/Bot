@@ -17,6 +17,7 @@ Commandes implémentées pour le moment :
 Commandes administrateur :
  - .reboot (Reboot le bot)
  - .stop (Stop le bot)
+ - .clear (Supprime les messages de commande et du bot)
 
 
 Autres fonctionalitées implémentées :
@@ -26,3 +27,4 @@ Autres fonctionalitées implémentées :
 Fonctionalités rejetés :
  - Sentience
  - Fabrication automatique de pizzas
+ - Stockage des codes atomiques du Pakistan

@@ -98,6 +98,7 @@ Quote("Ça, c'est tout à fait remarquable.", "Vincent V.K.")
 Quote("Pas de regrets, vous avez pas le niveau !", "Vincent V.K.")
 Quote("Oui, bien sûr!", "Vincent V.K.")
 Quote("N'utilisez pas de blanco, n'utilisez pas de gomme. Encadrez vos erreurs !", "Vincent V.K.")
+Quote("Bon les enfants, c'est l'heure !", "Vincent V.K.")
 Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
@@ -111,7 +112,10 @@ Quote("Ne seront lues que les réponses dont les __résultats ou mots importants
 Quote("On connait une tension, on cherche une tension.", "Stefano S.")
 Quote("On passe au plat de résistance ?", "Stefano S.")
 Quote("Les notes, on s'en fout ! Si tu veux, je te mets un 20.", "Stefano S.")
-Quote("Il y a ampère à gauche et il y a ampère à droite", "Stefano S.")
+Quote("Il y a ampère à gauche et il y a ampère à droite.", "Stefano S.")
+Quote("Là la tension elle fluctue donc c'est pas facile.", "Stefano S.")
+Quote("Quelle horreur !", "Stefano S.")
+Quote("On ne peut pas faire de physique sans schéma.", "Stefano S.")
 Quote("Non, ça sonne à 13h05.", "Stefano S.", 80)
 
 
@@ -141,10 +145,10 @@ Quote("A washing raton.", "Claire T.B.", 80)
 
 # Citations de philosophes/auteurs
 Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" + \
-      "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich N.", 70)
-Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich N.", 70)
+      "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich Nietzsche", 70)
+Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich Nietzsche", 70)
 Quote("Seule deux choses sont infinies, l'univers et la bêtise humaine.\nMais pour l'univers, je n'en ai pas encore la certitude absolue.", "Albert Einstein", 70)
-Quote("Maintenant j'ai devenu la Mort, le Destructeur de Monde.", "Robert O.", 70) # La faute est authentique à la citation originelle
+Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.", "J. Robert Oppenheimer", 70) # La faute est authentique à la citation originelle
 
 
 # Citations des élèves - Note, pas fait pour les insultes, juste pour quand quelqu'un sort quelque chose de mémorable
@@ -157,7 +161,7 @@ Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 30)
 
 
 # Citiations diverses
-Quote("We can be do, to do. What we want to do!", "François H.", 30)
-Quote("Yes, **WE CAN!**", "Barrack O.", 30)
-Quote("Ich bin ein Berliner!", "John F. K.", 30)
+Quote("We can be do, to do. What we want to do!", "François Hollande", 30)
+Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
+Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
