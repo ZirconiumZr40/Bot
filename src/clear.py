@@ -5,7 +5,7 @@ async def clearChannel(ctx):
     for i in messages:
         try:
             # On checke les deux cas de figure et supprime
-            if i.author.id == 614090341389434880:
+            if i.author.id == 761199238335299664: # Il n'y a pas moyen de faire mieux, j'ai arpenter StackOverflow et la documentation, mais j'ai rien trouvé
                 await i.delete(delay = 0.0)
             if i.content[0] == ".":
                 await i.delete(delay = 0.0)
