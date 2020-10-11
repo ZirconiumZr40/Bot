@@ -103,6 +103,8 @@ Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.", 80)
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
 Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.", 80)
+Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
+Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -117,6 +119,8 @@ Quote("Là la tension elle fluctue donc c'est pas facile.", "Stefano S.")
 Quote("Quelle horreur !", "Stefano S.")
 Quote("On ne peut pas faire de physique sans schéma.", "Stefano S.")
 Quote("Non, ça sonne à 13h05.", "Stefano S.", 80)
+Quote("Une loi d'Ohm sans schéma est forcément fausse, même si elle est juste.", "Stefano S.")
+Quote("En physique, on a tous les droits !", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -131,16 +135,21 @@ Quote("Il n'y a que des vielles version à la noix de coco !", "René L.")
 Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui crier dessus !", "René L.")
 Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.", 80)
 Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.", 80)
+Quote("L'infini n'existe pas.", "René L.")
 
 
 # Citations de Claire
 Quote("Ok guys!", "Claire T.B.")
 Quote("Guys?!", "Claire T.B.")
-Quote("Salut, ça va ? Il va comment ton chat ?\nAh bas, c'est un chat effrayé par les concombres !", "Claire T.B.")
+Quote("Salut, ça va ? Il va comment ton chat ?\nAh bah, c'est un chat effrayé par les concombres !", "Claire T.B.")
 Quote("Un panda, c'est pas un raton-laveur.", "Claire T.B.")
 Quote("C'est vraiment cette heure là.", "Claire T.B.")
 Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.", 80)
 Quote("A washing raton.", "Claire T.B.", 80)
+
+
+# Citations de Benjamin
+Quote("ln(2) = 0.69, ça se retient !", "Benjamin D.")
 
 
 # Citations de philosophes/auteurs
@@ -166,6 +175,7 @@ Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
 Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
 Quote("01001000 01100101 01101100 0110100 01101111 00100000 01010111 01101111 01110010 0110110 01100100 00100000 00100001", "Bot", 30)
+
 
 # Citation du rap fr
 Quote("Se faire sucer c'est pas tromper", "Damso", 30)
