@@ -9,6 +9,7 @@ Commandes implémentées pour le moment :
  - .ping (Pong)
  - .contribution (Affiche les infos de contribution)
  - .quote (Affiche une citation)
+   - .quote "Auteur" (Affiche une citation avec un auteur particulier)
  - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
@@ -28,3 +29,4 @@ Fonctionalités rejetés :
  - Sentience
  - Fabrication automatique de pizzas
  - Stockage des codes atomiques du Pakistan
+ - Vérification du calcul "Sens de la vie" = 42
