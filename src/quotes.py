@@ -28,8 +28,9 @@ class Quote:
         quotesWeight.append(weight)
     
     def __contains__(self, other):
+        # On définit le in pour permettre de vérifier l'auteur simplement
         if type(other) != str:
-            return NotImplemented
+            raise TypeError
         
         if self.author == other:
             return True
@@ -43,19 +44,28 @@ quotesToPull = []
 # Tirage d'une citation
 def random_quote(author = None):
     """ Tire une citation au hasard dans la liste pondéré des citations """
+    # Si un auteur particulier et demandé
     if author != None:
+        # On se met dans un try pour éviter les erreurs de l'entrée utilisateur
         try:
+            # On prépare deux nouvelles listes
             newQuotesToPull = []
             newQuotesWeight = []
+
             for i in quotes:
-                if i in author:
+                if author in i:
+                    # On ajoute dans les listes que les quotes correspondantes
                     newQuotesToPull.append(i)
                     newQuotesWeight.append(i.weight)
             
+            # On donne une citation aléatoire de la nouvelle liste
             return choices(newQuotesToPull, weights = newQuotesWeight, k = 1)[0]
-        except:
+        
+        except NameError:
+            # Si il y a un problème, on ignore et fait comme si aucun argument n'avait été passé
             pass
 
+    # Cas général
     # On définit la liste comme global, ainsi elle sera maintenue entre plusieurs appels de la fonction
     global quotesToPull
 
