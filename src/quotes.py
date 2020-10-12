@@ -81,7 +81,6 @@ quotesWeight = []
 
 # Guide pour pondérer les citations :
 # Vide si c'est une citation commune/emblématique d'un prof
-# 80 si elle est un peu plus rare
 # 70 si elle vient d'un philosophe/auteur ...
 # 50 si elle vient d'un élève
 # 30 si c'est plus une blague qu'autre chose
@@ -99,10 +98,10 @@ Quote("Pas de regrets, vous avez pas le niveau !", "Vincent V.K.")
 Quote("Oui, bien sûr!", "Vincent V.K.")
 Quote("N'utilisez pas de blanco, n'utilisez pas de gomme. Encadrez vos erreurs !", "Vincent V.K.")
 Quote("Bon les enfants, c'est l'heure !", "Vincent V.K.")
-Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.", 80)
-Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.", 80)
-Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.", 80)
-Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.", 80)
+Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.")
+Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.")
+Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.")
+Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.")
 Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 
@@ -118,23 +117,24 @@ Quote("Il y a ampère à gauche et il y a ampère à droite.", "Stefano S.")
 Quote("Là la tension elle fluctue donc c'est pas facile.", "Stefano S.")
 Quote("Quelle horreur !", "Stefano S.")
 Quote("On ne peut pas faire de physique sans schéma.", "Stefano S.")
-Quote("Non, ça sonne à 13h05.", "Stefano S.", 80)
+Quote("Non, ça sonne à 13h05.", "Stefano S.")
 Quote("Une loi d'Ohm sans schéma est forcément fausse, même si elle est juste.", "Stefano S.")
 Quote("En physique, on a tous les droits !", "Stefano S.")
+Quote("Là, j'ai attendu mille minutes !", "Stefano S.")
 
 
 # Citations de Baptiste
 Quote("Tout seul on va plus vite, ensemble on va plus loin.", "Baptiste H. (proverbe africain)")
 Quote("Oh, c'est pas très sympatique ça.", "Baptiste H.")
-Quote("Il y a des normes.", "Baptiste H.", 80)
+Quote("Il y a des normes.", "Baptiste H.")
 
 
 # Citations de René
 Quote("M. RINGOT, **DEVANT !**", "René L.")
 Quote("Il n'y a que des vielles version à la noix de coco !", "René L.")
 Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui crier dessus !", "René L.")
-Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.", 80)
-Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.", 80)
+Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.")
+Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.")
 Quote("L'infini n'existe pas.", "René L.")
 
 
@@ -144,8 +144,8 @@ Quote("Guys?!", "Claire T.B.")
 Quote("Salut, ça va ? Il va comment ton chat ?\nAh bah, c'est un chat effrayé par les concombres !", "Claire T.B.")
 Quote("Un panda, c'est pas un raton-laveur.", "Claire T.B.")
 Quote("C'est vraiment cette heure là.", "Claire T.B.")
-Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.", 80)
-Quote("A washing raton.", "Claire T.B.", 80)
+Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.")
+Quote("A washing raton.", "Claire T.B.")
 
 
 # Citations de Benjamin
@@ -174,10 +174,10 @@ Quote("We can be do, to do. What we want to do!", "François Hollande", 30)
 Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
 Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
-Quote("01001000 01100101 01101100 0110100 01101111 00100000 01010111 01101111 01110010 0110110 01100100 00100000 00100001", "Bot", 30)
+Quote("01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001", "Bot", 30)
 
 
-# Citation du rap fr
+# Citation du rap français
 Quote("Se faire sucer c'est pas tromper", "Damso", 30)
 Quote("Je lance des tomates sur les vegans", "Lorenzo", 30)
 Quote("Lunettes sur le nez s'essaye de passer incognito", "Bosh", 30)
