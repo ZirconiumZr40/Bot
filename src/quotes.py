@@ -16,19 +16,24 @@ class Quote:
     """
 
     # Initialisation d'une variable de classe, pour définir des poids cumulatifs
-    currentTotalWeight = 0
 
     def __init__(self, text, author, weight = 100):
         # Initialisation de attributs
         self.text = text
         self.author = author
-
-        # On ajoute le poids de la quote au total des poids, cela sert à calculer les poids cumulatifs
-        Quote.currentTotalWeight += weight
+        self.weight = weight
 
         # Ajout dans les listes, pour pouvoir être choisi par la fonction choices
         quotes.append(self)
-        quotesWeight.append(Quote.currentTotalWeight)
+        quotesWeight.append(weight)
+    
+    def __contains__(self, other):
+        if type(other) != str:
+            return NotImplemented
+        
+        if self.author == other:
+            return True
+        return False
 
 
 
@@ -36,15 +41,28 @@ global quotesToPull
 quotesToPull = []
 
 # Tirage d'une citation
-def random_quote():
+def random_quote(author = None):
     """ Tire une citation au hasard dans la liste pondéré des citations """
+    if author != None:
+        try:
+            newQuotesToPull = []
+            newQuotesWeight = []
+            for i in quotes:
+                if i in author:
+                    newQuotesToPull.append(i)
+                    newQuotesWeight.append(i.weight)
+            
+            return choices(newQuotesToPull, weights = newQuotesWeight, k = 1)[0]
+        except:
+            pass
+
     # On définit la liste comme global, ainsi elle sera maintenue entre plusieurs appels de la fonction
     global quotesToPull
 
     # On regarde si la liste contient des quotes
     if len(quotesToPull) == 0:
         # Si la liste est vide, on prend 12 éléments de la liste, avec répétition, car on peut pas faire autrement
-        quotesToPull = choices(quotes, cum_weights = quotesWeight, k = 12)
+        quotesToPull = choices(quotes, weights = quotesWeight, k = 12)
         
         # On prepare une liste pour y stocker les index des valeurs à supprimer
         toDelete = []
