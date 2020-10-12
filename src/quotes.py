@@ -32,7 +32,7 @@ class Quote:
         if type(other) != str:
             raise TypeError
         
-        if self.author == other:
+        if other.title() in self.author:
             return True
         return False
 
