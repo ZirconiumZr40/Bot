@@ -61,7 +61,7 @@ def random_quote(author = None):
             # On donne une citation aléatoire de la nouvelle liste
             return choices(newQuotesToPull, weights = newQuotesWeight, k = 1)[0]
         
-        except NameError:
+        except:
             # Si il y a un problème, on ignore et fait comme si aucun argument n'avait été passé
             pass
 
