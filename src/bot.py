@@ -90,9 +90,9 @@ async def contribution(ctx):
 
 # Commande de citation
 @bot.command()
-async def citation(ctx):
+async def citation(ctx, arg = None):
     # On choisi une citation
-    quote = random_quote()
+    quote = random_quote(arg)
 
     # On créé un embed
     embed = Embed(title=quote.text)
