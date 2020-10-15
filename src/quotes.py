@@ -164,6 +164,7 @@ Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui cri
 Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.")
 Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.")
 Quote("L'infini n'existe pas.", "René L.")
+Quote("On fait des maths, pas de la choucroute", "René L.")
 
 
 # Citations de Claire
