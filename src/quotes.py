@@ -11,8 +11,6 @@ class Quote:
      - text : Cela représente le texte de la citation, qui sera affiché à l'écran, cela doit être un string
      - author : Cela représente l'auteur de la citation, ce sera affiché en dessous du texte de la citation
      - weight : Cela représente la pondération de la citation, ses chances d'être choisie. Valeur si non fourni : 100
-    Finalement, il existe une variable de classe currentTotalWeight, qui est utilisée pour calculer les poids cumulés.\n
-    Cette variable contient la somme des poids de tout les poids des citations.
     """
 
     # Initialisation d'une variable de classe, pour définir des poids cumulatifs
