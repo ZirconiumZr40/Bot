@@ -11,8 +11,6 @@ class Quote:
      - text : Cela représente le texte de la citation, qui sera affiché à l'écran, cela doit être un string
      - author : Cela représente l'auteur de la citation, ce sera affiché en dessous du texte de la citation
      - weight : Cela représente la pondération de la citation, ses chances d'être choisie. Valeur si non fourni : 100
-    Finalement, il existe une variable de classe currentTotalWeight, qui est utilisée pour calculer les poids cumulés.\n
-    Cette variable contient la somme des poids de tout les poids des citations.
     """
 
     # Initialisation d'une variable de classe, pour définir des poids cumulatifs
@@ -132,6 +130,8 @@ Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va v
 Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.")
 Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
+Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vincent V.K.")
+Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront peut-être pas longs.", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -164,6 +164,7 @@ Quote("Je veux pas d'élèves comme ça, il sait tout faire, je peux pas lui cri
 Quote("Toi, cours jusqu'à la salle des profs et fait moi 15 photocopies du sujet !", "René L.")
 Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René L.")
 Quote("L'infini n'existe pas.", "René L.")
+Quote("À dans plus tard !", "René L.")
 Quote("On fait des maths, pas de la choucroute", "René L.")
 
 
@@ -179,6 +180,10 @@ Quote("A washing raton.", "Claire T.B.")
 
 # Citations de Benjamin
 Quote("ln(2) = 0.69, ça se retient !", "Benjamin D.")
+
+
+# Citations de Marc (Prof d'Allemand)
+Quote("Là on est en 2015, et on va faire le grand saut en 2020 !", "Marc V.T.")
 
 
 # Citations de philosophes/auteurs
