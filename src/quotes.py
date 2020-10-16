@@ -149,6 +149,7 @@ Quote("Non, ça sonne à 13h05.", "Stefano S.")
 Quote("Une loi d'Ohm sans schéma est forcément fausse, même si elle est juste.", "Stefano S.")
 Quote("En physique, on a tous les droits !", "Stefano S.")
 Quote("Là, j'ai attendu mille minutes !", "Stefano S.")
+Quote("C'est parce que là, je parle du futur ...", "Stefano S.")
 
 
 # Citations de Baptiste
