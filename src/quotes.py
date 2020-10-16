@@ -132,6 +132,8 @@ Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vincent V.K.")
 Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront peut-être pas longs.", "Vincent V.K.")
+Quote("L'honnêteté intellectuelle, bah c'est l'inverse de la malhonnêteté intellectuelle.", "Vincent V.K.")
+Quote("On est ce qu'on appelle un truand.", "Vincent V.K.")
 
 
 # Citations de Stefano
