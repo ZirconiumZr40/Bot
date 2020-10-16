@@ -132,6 +132,8 @@ Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vincent V.K.")
 Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront peut-être pas longs.", "Vincent V.K.")
+Quote("L'honnêteté intellectuelle, bah c'est l'inverse de la malhonnêteté intellectuelle.", "Vincent V.K.")
+Quote("On est ce qu'on appelle un truand.", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -149,6 +151,7 @@ Quote("Non, ça sonne à 13h05.", "Stefano S.")
 Quote("Une loi d'Ohm sans schéma est forcément fausse, même si elle est juste.", "Stefano S.")
 Quote("En physique, on a tous les droits !", "Stefano S.")
 Quote("Là, j'ai attendu mille minutes !", "Stefano S.")
+Quote("C'est parce que là, je parle du futur ...", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -166,6 +169,7 @@ Quote("Toi, t'as envie d'aller au tableau ? Bien sûr que tu as envie !", "René
 Quote("L'infini n'existe pas.", "René L.")
 Quote("À dans plus tard !", "René L.")
 Quote("On fait des maths, pas de la choucroute", "René L.")
+Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
 
 
 # Citations de Claire
