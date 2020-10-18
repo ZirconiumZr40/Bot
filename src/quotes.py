@@ -134,6 +134,7 @@ Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vinc
 Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront peut-être pas longs.", "Vincent V.K.")
 Quote("L'honnêteté intellectuelle, bah c'est l'inverse de la malhonnêteté intellectuelle.", "Vincent V.K.")
 Quote("On est ce qu'on appelle un truand.", "Vincent V.K.")
+Quote("Relis ton cours !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -151,7 +152,10 @@ Quote("Non, ça sonne à 13h05.", "Stefano S.")
 Quote("Une loi d'Ohm sans schéma est forcément fausse, même si elle est juste.", "Stefano S.")
 Quote("En physique, on a tous les droits !", "Stefano S.")
 Quote("Là, j'ai attendu mille minutes !", "Stefano S.")
-Quote("C'est parce que là, je parle du futur ...", "Stefano S.")
+Quote("C'est parce que là, je parle du futur...", "Stefano S.")
+Quote("C'est parfait, c'est formidable !", "Stefano S.")
+Quote("Bon...", "Stefano S.")
+Quote("Ça devrait être intuitif", "Stefano S.")
 
 
 # Citations de Baptiste
