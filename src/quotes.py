@@ -156,6 +156,7 @@ Quote("C'est parce que là, je parle du futur...", "Stefano S.")
 Quote("C'est parfait, c'est formidable !", "Stefano S.")
 Quote("Bon...", "Stefano S.")
 Quote("Ça devrait être intuitif", "Stefano S.")
+Quote("On va se comporter comme une vraie classe de prépa", "Stefano S.")
 
 
 # Citations de Baptiste
