@@ -128,6 +128,7 @@ Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.")
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.")
 Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.")
 Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.")
+Quote("c'est tellement agréable de marcher dans la merde", "Vincent V.K.")
 Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vincent V.K.")
@@ -218,6 +219,7 @@ Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
 Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
 Quote("01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001", "Bot", 30)
+Quote("Les deux machines fonctionnent", "Employé de cantine", 30)
 
 
 # Citation du rap français
