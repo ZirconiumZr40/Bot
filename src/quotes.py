@@ -157,6 +157,8 @@ Quote("C'est parfait, c'est formidable !", "Stefano S.")
 Quote("Bon...", "Stefano S.")
 Quote("Ça devrait être intuitif", "Stefano S.")
 Quote("On va se comporter comme une vraie classe de prépa", "Stefano S.")
+Quote("Ça, ça sera l'objet du cours suivant", "Stefano S.")
+Quote("Au revoir, bon travail !", "Stefano S.")
 
 
 # Citations de Baptiste
