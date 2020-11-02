@@ -159,6 +159,8 @@ Quote("Ça devrait être intuitif", "Stefano S.")
 Quote("On va se comporter comme une vraie classe de prépa", "Stefano S.")
 Quote("Ça, ça sera l'objet du cours suivant", "Stefano S.")
 Quote("Au revoir, bon travail !", "Stefano S.")
+Quote("C'est presque plus simple !", "Stefano S.")
+Quote("Allez tiens ça fera passer le temps !", "Stefano S.")
 
 
 # Citations de Baptiste
