@@ -135,6 +135,9 @@ Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront p
 Quote("L'honnêteté intellectuelle, bah c'est l'inverse de la malhonnêteté intellectuelle.", "Vincent V.K.")
 Quote("On est ce qu'on appelle un truand.", "Vincent V.K.")
 Quote("Relis ton cours !", "Vincent V.K.")
+Quote("Si j'entends dire que quelqu'un roule en vélo a contre sens sur l'autoroute je penserais à vous", "Vincent V.K.")
+Quote("Comme disait Oliver Véran à l'assemblée hier soir, vous pouvez sortir", "Vincent V.K.")
+Quote("Je préfère la trigo que les courges", "Vincent V.K.")
 
 
 # Citations de Stefano
