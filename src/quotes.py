@@ -213,6 +213,8 @@ Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.", "J. Robert Opp
 # Citations des élèves - Note, pas fait pour les insultes, juste pour quand quelqu'un sort quelque chose de mémorable
 # De plus, ne rajouter pas vos propres citation, ça ne se fait pas. Si c'était assez mémorable, quelqu'un d'autre le rajoutera à votre place
 Quote("Le masque il faut le brancher à un avion.", "Nathan F.", 50)
+Quote("Quelle technique ? Mais QUELLE Technique !!?", "Léo I", 50)
+Quote("En plus y a pas de meuf en prepa", "Léo I", 50)
 
 
 # Citations anonymes
@@ -225,6 +227,7 @@ Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
 Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
 Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
 Quote("01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001", "Bot", 30)
+Quote("Les deux machines fonctionnent", "Surveillant", 30)
 
 
 # Citation du rap français
