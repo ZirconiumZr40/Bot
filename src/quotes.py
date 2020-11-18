@@ -213,6 +213,8 @@ Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.", "J. Robert Opp
 # Citations des élèves - Note, pas fait pour les insultes, juste pour quand quelqu'un sort quelque chose de mémorable
 # De plus, ne rajouter pas vos propres citation, ça ne se fait pas. Si c'était assez mémorable, quelqu'un d'autre le rajoutera à votre place
 Quote("Le masque il faut le brancher à un avion.", "Nathan F.", 50)
+Quote("Quelle formule, mais QUELLE FORMULE !!?", "Leo I.", 50)
+Quote("En plus y a pas de meuf en prepa", "Leo I.", 50)
 
 
 # Citations anonymes
