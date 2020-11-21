@@ -182,6 +182,7 @@ Quote("L'infini n'existe pas.", "René L.")
 Quote("À dans plus tard !", "René L.")
 Quote("On fait des maths, pas de la choucroute", "René L.")
 Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
+Quote("Cordialement", "René L.")
 
 
 # Citations de Claire
