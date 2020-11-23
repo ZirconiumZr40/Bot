@@ -138,6 +138,7 @@ Quote("Relis ton cours !", "Vincent V.K.")
 Quote("Si j'entends dire que quelqu'un roule en vélo a contre sens sur l'autoroute je penserais à vous", "Vincent V.K.")
 Quote("Comme disait Oliver Véran à l'assemblée hier soir, vous pouvez sortir", "Vincent V.K.")
 Quote("Je préfère la trigo que les courges", "Vincent V.K.")
+Quote("Si tu penses que tu es en vacances, penses aussi à ce que tu feras plus tard", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -164,6 +165,8 @@ Quote("Ça, ça sera l'objet du cours suivant", "Stefano S.")
 Quote("Au revoir, bon travail !", "Stefano S.")
 Quote("C'est presque plus simple !", "Stefano S.")
 Quote("Allez tiens ça fera passer le temps !", "Stefano S.")
+Quote("Bon bref ! Tous ces efforts pour arriver à une équation", "Stefano S.")
+Quote("C'est pas terrible comme équation !", "Stefano S.")
 
 
 # Citations de Baptiste
