@@ -139,6 +139,13 @@ Quote("Si j'entends dire que quelqu'un roule en vélo a contre sens sur l'autoro
 Quote("Comme disait Oliver Véran à l'assemblée hier soir, vous pouvez sortir", "Vincent V.K.")
 Quote("Je préfère la trigo que les courges", "Vincent V.K.")
 Quote("Si tu penses que tu es en vacances, penses aussi à ce que tu feras plus tard", "Vincent V.K.")
+Quote("Si vous confondez des nombres avec des fonctions, vous confondez tous", "Vincent V.K.")
+Quote("Si vous confondez les nombres et les fonctions, c'est comme si vous confondiez une voiture avec de l'argent", "Vincent V.K.")
+Quote("En maths, il n'y a rien qui existe. C'est virtuel", "Vincent V.K.")
+Quote("En maths tout se dessine", "Vincent V.K.")
+Quote("Quand on est feignant, on est puni", "Vincent V.K.")
+Quote("A mon age je suis encore un con", "Vincent V.K.")
+Quote("Faites comme moi, soyez un jeune con, puis un moins jeune con, puis... un vieux con", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -220,6 +227,7 @@ Quote("Le masque il faut le brancher à un avion.", "Nathan F.", 50)
 Quote("Quelle technique ? Mais QUELLE Technique !!?", "Léo I.", 50)
 Quote("En plus y a pas de meuf en prepa", "Léo I.", 50)
 Quote("J'ai oublié un moins, je suis stupide !", "Emilien G.", 50)
+Quote("Heuuuuu", "Valentine C.", 50)
 
 
 # Citations anonymes
