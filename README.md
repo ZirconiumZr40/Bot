@@ -13,6 +13,7 @@ Commandes implémentées pour le moment :
  - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)
+ - .empty (Vide la channel sur les 30 derniers messages)
 
 
 Commandes administrateur :

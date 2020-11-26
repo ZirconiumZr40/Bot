@@ -10,7 +10,7 @@ from discord import Embed, Game
 # On importe nos ressources
 from quotes import random_quote
 from item_chest import generateItem
-from clear import clearChannel
+from clear import clearChannel, emptyChannel
 
 # Import du random
 from random import randint
@@ -73,8 +73,17 @@ async def stop(ctx):
 @bot.command()
 @commands.is_owner()
 async def clear(ctx):
-    # On supprime tout les messages de commande et du bot du channel
+    # On supprime tous les messages de commande et du bot du channel
     await clearChannel(ctx)
+    await ctx.message.delete()
+
+
+
+# Commande de empty
+@bot.command()
+async def empty(ctx):
+    # On supprime tous les messages
+    await emptyChannel(ctx)
     await ctx.message.delete()
 
 
