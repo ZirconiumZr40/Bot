@@ -195,6 +195,7 @@ Quote("On fait des maths, pas de la choucroute", "René L.")
 Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
 Quote("Cordialement", "René L.")
 Quote("C'est des vieux shnocks comme moi !", "René L.")
+Quote("bboonnjjoouurr lleess aammiiss", "René L.")
 
 
 # Citations de Claire
