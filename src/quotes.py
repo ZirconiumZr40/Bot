@@ -231,6 +231,7 @@ Quote("Quelle technique ? Mais QUELLE Technique !!?", "Léo I.", 50)
 Quote("En plus y a pas de meuf en prepa", "Léo I.", 50)
 Quote("J'ai oublié un moins, je suis stupide !", "Emilien G.", 50)
 Quote("Heuuuuu", "Valentine C.", 50)
+Quote("C'est intéressant quand on sait faire", "Guillaume F.", 50)
 
 
 # Citations anonymes
