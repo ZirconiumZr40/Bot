@@ -180,6 +180,7 @@ Quote("C'est pas terrible comme équation !", "Stefano S.")
 Quote("Tout seul on va plus vite, ensemble on va plus loin.", "Baptiste H. (proverbe africain)")
 Quote("Oh, c'est pas très sympatique ça.", "Baptiste H.")
 Quote("Il y a des normes.", "Baptiste H.")
+Quote("On s'en fou si on arrive pas à lire, du moment qu'on comprend ce qu'il faut faire !", "Baptiste H.")
 
 
 # Citations de René
@@ -193,6 +194,7 @@ Quote("À dans plus tard !", "René L.")
 Quote("On fait des maths, pas de la choucroute", "René L.")
 Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
 Quote("Cordialement", "René L.")
+Quote("C'est des vieux shnocks comme moi !", "René L.")
 
 
 # Citations de Claire
