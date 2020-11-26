@@ -14,8 +14,8 @@ async def clearChannel(ctx):
 
 # Supprime tous les messages
 async def emptyChannel(ctx):
-    # On prend les 50 derniers messages
-    messages = await ctx.message.channel.history(limit=50).flatten()
+    # On prend les 100 derniers messages
+    messages = await ctx.message.channel.history(limit=100).flatten()
     for i in messages:
         try:
             await i.delete(delay = 0.0)
