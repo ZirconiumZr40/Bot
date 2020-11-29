@@ -146,6 +146,12 @@ Quote("En maths tout se dessine", "Vincent V.K.")
 Quote("Quand on est feignant, on est puni", "Vincent V.K.")
 Quote("A mon age je suis encore un con", "Vincent V.K.")
 Quote("Faites comme moi, soyez un jeune con, puis un moins jeune con, puis... un vieux con", "Vincent V.K.")
+Quote("Autant dire que vous faites n'importe quoi", "Vincent V.K.")
+Quote("Menteur !", "Vincent V.K.")
+Quote("On va être de grands amis dans l'avenir... Une très longue amitié !", "Vincent V.K.")
+Quote("J'ai besoin d'un rendez-vous chez l'ophtalmo", "Vincent V.K.")
+Quote("Si vous savez calculer une dérivée, vous savez calculer une primitive.", "Vincent V.K.")
+Quote("Une primite", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -174,6 +180,10 @@ Quote("C'est presque plus simple !", "Stefano S.")
 Quote("Allez tiens ça fera passer le temps !", "Stefano S.")
 Quote("Bon bref ! Tous ces efforts pour arriver à une équation", "Stefano S.")
 Quote("C'est pas terrible comme équation !", "Stefano S.")
+Quote("On se mouille pas trop quand on écrit ça...", "Stefano S.")
+Quote("Je m'en rappelle plus !", "Stefano S.")
+Quote("Je viendrai vous fusiller sur le champ !", "Stefano S.")
+Quote("Vous récitez ça tous les matins pendant 10 jours et puis c'est bon !", "Stefano S.")
 
 
 # Citations de Baptiste
