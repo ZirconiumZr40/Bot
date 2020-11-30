@@ -8,8 +8,9 @@ Pour cela, il vous faut créer un fork de ce repository, et le soumettre en pull
 Commandes implémentées pour le moment :
  - .ping (Pong)
  - .contribution (Affiche les infos de contribution)
- - .quote (Affiche une citation)
-   - .quote "Auteur" (Affiche une citation avec un auteur particulier)
+ - .citation (Affiche une citation)
+   - .citation "Auteur" (Affiche une citation avec un auteur particulier)
+ - .count (Affiche le nombre de citations enregistrées)
  - .item (Affiche un item de RPG)
  - .pileface (Simule un lancer de pièce)
  - .token (Envoi le token du bot)

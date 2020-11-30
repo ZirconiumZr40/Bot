@@ -1,7 +1,10 @@
 # Import du random
 from random import choices, randint
 
-
+"""
+Définition des classes et des fonctions
+Pour ajouter des citations, voir plus bas dans le fichier
+"""
 
 # Structure des citations
 class Quote:
@@ -97,13 +100,19 @@ def random_quote(author = None):
     # Puis on return une citation au hasard et l'enlève de la liste
     return quotesToPull.pop(randint(0, len(quotesToPull) - 1))
 
+# Comptage du nombre de citations
+def quotes_count():
+    return len(quotes)
+
 # Création des listes des citations
 quotes = []
 quotesWeight = []
 
 
 
-""" Definition des citations """
+"""
+Definition des citations
+"""
 
 # Guide pour pondérer les citations :
 # Vide si c'est une citation commune/emblématique d'un prof

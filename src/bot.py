@@ -8,7 +8,7 @@ from discord.ext import commands
 from discord import Embed, Game
 
 # On importe nos ressources
-from quotes import random_quote
+from quotes import random_quote, quotes_count
 from item_chest import generateItem
 from clear import clearChannel, emptyChannel
 
@@ -111,6 +111,24 @@ async def citation(ctx, arg = None):
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
+
+
+# Commande pour compter les citations
+@bot.command()
+async def count(ctx):
+    # On compte les citations
+    n = quotes_count()
+
+    # On créé les paramètres de l'équation
+    a = randint(1, 20)
+    n2 = randint(-20, -1)
+
+    # On créé un embed
+    embed = Embed(title="J'ai `n` citations, tel que `" + str(a) + "n^2 + " + str(-a*(n + n2) + "n + " + str(a*n*n2) + "`, et `n > 0`"))
+
+    # On envoit
+    await ctx.send(embed=embed)
+    await ctx.message.delete()
 
 
 # Commande d'item
