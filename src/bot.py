@@ -124,7 +124,10 @@ async def count(ctx):
     n2 = randint(-10, -1)
 
     # On créé un embed
-    embed = Embed(title="J'ai n citations, tel que : ```" + str(a) + "n^2 - " + str(a*(n + n2)) + "n - " + str(-a*n*n2) + " = 0``````n > 0```")
+    embed = Embed(
+        title="J'ai n citations, tel que :",
+        description="```" + str(a) + "n^2 - " + str(a*(n + n2)) + "n - " + str(-a*n*n2) + " = 0``````n > 0```"
+    )
 
     # On envoit
     await ctx.send(embed=embed)
