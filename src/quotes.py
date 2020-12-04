@@ -195,6 +195,7 @@ Quote("Je m'en rappelle plus !", "Stefano S.")
 Quote("Je viendrai vous fusiller sur le champ !", "Stefano S.")
 Quote("Vous récitez ça tous les matins pendant 10 jours et puis c'est bon !", "Stefano S.")
 Quote("Revenons à nos moutons", "Stefano S.")
+Quote("Vous n'avez pas honte !", "Stefano S.")
 
 
 # Citations de Baptiste
