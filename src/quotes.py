@@ -161,6 +161,7 @@ Quote("On va être de grands amis dans l'avenir... Une très longue amitié !", 
 Quote("J'ai besoin d'un rendez-vous chez l'ophtalmo", "Vincent V.K.")
 Quote("Si vous savez calculer une dérivée, vous savez calculer une primitive.", "Vincent V.K.")
 Quote("Une primite", "Vincent V.K.")
+Quote("C'est presque du terrorisme de mettre de la colle", "Vincent V.K.")
 
 
 # Citations de Stefano
