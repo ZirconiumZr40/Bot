@@ -194,7 +194,7 @@ morpion_games = []
 @bot.command()
 async def morpion(ctx):
     # On démarre une partie de morpion
-    game = MorpionGame(3, MorpionHuman("O"), MorpionHuman("X"), ctx)
+    game = MorpionGame(3, MorpionHuman("O", "Joueur 1"), MorpionHuman("X", "Joueur 2"), ctx)
     morpion_games.append(game)
     await ctx.message.delete()
     await game.nextMove()
@@ -205,7 +205,7 @@ async def morpion(ctx):
 @bot.command()
 async def morpionbot(ctx):
     # On démarre une partie de morpion
-    game = MorpionGame(3, MorpionHuman("O"), MorpionComputer("X"), ctx)
+    game = MorpionGame(3, MorpionHuman("O", "Joueur 1"), MorpionComputer("X", "Ordinateur"), ctx)
     morpion_games.append(game)
     await ctx.message.delete()
     await game.nextMove()
@@ -221,7 +221,7 @@ async def on_reaction_add(reaction, user):
     for game in morpion_games:
         if game.message != None and reaction.message.id == game.message.id:
             # On joue avec la réaction
-            await game.playFromReaction(reaction.emoji)
+            await game.playFromReaction(reaction.emoji, user)
 
             # On clear la game si c'est fini
             if game.current == "*":

@@ -10,8 +10,10 @@ Class MorpionPlayer - Gestion du joueur
 
 class MorpionPlayer:
 
-    def __init__(self, sign):
+    def __init__(self, sign, name):
         self.sign = sign
+        self.name = name
+        self.id = -1
 
     async def play(self, game, completion):
         completion((0, 0))
@@ -138,6 +140,9 @@ class MorpionGame:
         # Generate output
         output = ""
 
+        # Players
+        output += "**" + self.player1.name + "** / **" + self.player2.name + "**\n\n"
+
         # Lines
         for y in range(self.size):
             line = ""
@@ -146,17 +151,20 @@ class MorpionGame:
             output += line + "\n"
 
         # Check for game status
-        footer = "Cliquez sur un chiffre pour jouer"
+        output += "\n"
         if self.current == "*":
             win = self.win(self.table)
-            if win == "*":
-                footer = "Match nul !"
+            for player in [self.player1, self.player2]:
+                if player.sign == win:
+                    output += "Victoire de " + player.name + " !"
+                    break
             else:
-                footer = "Victoire de " + win + " !"
+                output += "Match nul !"
+        else:
+            output += "Cliquez sur un chiffre pour jouer"
 
         # Construct embed
         embed = Embed(title="Jeu du Morpion", description=output)
-        embed.set_footer(text=footer)
 
         # Send message
         if self.message == None:
@@ -203,7 +211,7 @@ class MorpionGame:
             return ":nine:"
 
     # Joue sur le joueur en cours selon l'emoji choisi
-    async def playFromReaction(self, emoji):
+    async def playFromReaction(self, emoji, user):
         # On init les coordonnées
         (x, y) = (0, 0)
 
@@ -231,7 +239,8 @@ class MorpionGame:
 
         # On iterate les joueurs pour jouer
         for player in [self.player1, self.player2]:
-            if player.sign == self.current:
+            if player.sign == self.current and (player.id == -1 or player.id == user.id):
+                player.name = user.name
                 await player.completion(x, y)
 
     # Change la valeur d'une case si libre
