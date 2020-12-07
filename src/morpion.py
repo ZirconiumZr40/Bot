@@ -240,8 +240,10 @@ class MorpionGame:
         # On iterate les joueurs pour jouer
         for player in [self.player1, self.player2]:
             if player.sign == self.current and (player.id == -1 or player.id == user.id):
+                player.id = user.id
                 player.name = user.display_name
                 await player.completion(x, y)
+                return
 
     # Change la valeur d'une case si libre
     def play(self, x, y, player):
