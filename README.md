@@ -16,7 +16,8 @@ Pour cela, il vous faut créer un fork de ce repository, et le soumettre en pull
 | .count             | Affiche le nombre de citations enregistrées     |
 | .item              | Affiche un item de RPG                          |
 | .pileface          | Simule un lancer de pièce                       |
-| .morpion           | Démarre une partie de Morpion                   |
+| .morpion           | Démarre une partie de Morpion à deux            |
+| .morpionbot        | Démarre une partie de Morpion joueur contre AI  |
 | .token             | Envoi le token du bot                           |
 | .empty             | Vide la channel sur les 100 derniers messages   |
 | .reboot            | Reboot le bot                                   |

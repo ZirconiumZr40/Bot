@@ -6,6 +6,8 @@ from discord import Embed
 """
 Class MorpionPlayer - Gestion du joueur
 """
+
+
 class MorpionPlayer:
 
     def __init__(self, sign):
@@ -14,9 +16,12 @@ class MorpionPlayer:
     async def play(self, game, completion):
         completion((0, 0))
 
+
 """
 Class MorpionComputer - Implementation de MorpionPlayer pour l'ordinateur
 """
+
+
 class MorpionComputer(MorpionPlayer):
 
     async def play(self, game, completion):
@@ -65,17 +70,23 @@ class MorpionComputer(MorpionPlayer):
         # Et on joue le meilleur
         return moves[0]
 
+
 """
 Class MorpionHuman - Implementation de MorpionPlayer pour le joueur
 """
+
+
 class MorpionHuman(MorpionPlayer):
 
     async def play(self, game, completion):
         self.completion = completion
 
+
 """
 Class MorpionGame - Gestion du tableau de jeu
 """
+
+
 class MorpionGame:
 
     # Initialisation du tableau de jeu
@@ -105,7 +116,7 @@ class MorpionGame:
                     # Here the player plays
                     await player.play(self, self.handleNextMove)
                     return
-        
+
         # The game ended
         self.current = "*"
         await self.show()
@@ -115,10 +126,10 @@ class MorpionGame:
         # Set the move
         if self.play(x, y, self.current):
             self.current = self.player2.sign if self.current == self.player1.sign else self.player1.sign
-        
+
         # Update message
         await self.show()
-        
+
         # And go to next move
         await self.nextMove()
 
@@ -138,12 +149,15 @@ class MorpionGame:
         footer = "Cliquez sur un chiffre pour jouer"
         if self.current == "*":
             win = self.win(self.table)
-            footer = "Victoire de " + win
+            if win == "*":
+                footer = "Match nul !"
+            else:
+                footer = "Victoire de " + win + " !"
 
         # Construct embed
         embed = Embed(title="Jeu du Morpion", description=output)
         embed.set_footer(text=footer)
-        
+
         # Send message
         if self.message == None:
             self.message = await self.ctx.send(embed=embed)
@@ -187,12 +201,12 @@ class MorpionGame:
             return ":eight:"
         elif x == 2 and y == 2:
             return ":nine:"
-    
+
     # Joue sur le joueur en cours selon l'emoji choisi
     async def playFromReaction(self, emoji):
         # On init les coordonnées
         (x, y) = (0, 0)
-        
+
         # On check l'emoji
         if emoji == "1️⃣":
             (x, y) = (0, 0)
@@ -239,7 +253,7 @@ class MorpionGame:
             col = self.col(table, i)
             if col != "*":
                 return col
-        
+
         for i in range(2):
             # Check is a dia has a winner
             dia = self.dia(table, i)

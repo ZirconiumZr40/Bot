@@ -11,18 +11,16 @@ from discord import Embed, Game
 from quotes import random_quote, quotes_count
 from item_chest import generateItem
 from clear import clearChannel, emptyChannel
-from morpion import MorpionGame, MorpionHuman
+from morpion import MorpionGame, MorpionHuman, MorpionComputer
 
 # Import du random
 from random import randint
-
 
 
 """ Initialisation du bot """
 
 # On init le bot
 bot = commands.Bot(command_prefix='.')
-
 
 
 # Quand le bot est pret
@@ -35,7 +33,6 @@ async def on_ready():
     await bot.change_presence(activity=Game('https://github.com/MPSI1Thuillier/Bot'))
 
 
-
 """ Définition des commandes """
 
 #
@@ -43,6 +40,8 @@ async def on_ready():
 #
 
 # Commande de ping
+
+
 @bot.command()
 async def ping(ctx):
     # On répond pong
@@ -50,6 +49,8 @@ async def ping(ctx):
     await ctx.message.delete()
 
 # Commande de reboot
+
+
 @bot.command()
 @commands.is_owner()
 async def reboot(ctx):
@@ -60,6 +61,8 @@ async def reboot(ctx):
     quit()
 
 # Commande de stop
+
+
 @bot.command()
 @commands.is_owner()
 async def stop(ctx):
@@ -67,7 +70,6 @@ async def stop(ctx):
     await ctx.bot.logout()
     await ctx.message.delete()
     quit()
-
 
 
 #
@@ -83,12 +85,13 @@ async def clear(ctx):
     await ctx.message.delete()
 
 # Commande de empty
+
+
 @bot.command()
 async def empty(ctx):
     # On supprime tous les messages
     await emptyChannel(ctx)
     await ctx.message.delete()
-
 
 
 #
@@ -103,14 +106,13 @@ async def contribution(ctx):
     await ctx.message.delete()
 
 
-
 #
 # Commandes de citation
 #
 
 # Commande de citation
 @bot.command()
-async def citation(ctx, arg = None):
+async def citation(ctx, arg=None):
     # On choisi une citation
     quote = random_quote(arg)
 
@@ -123,6 +125,8 @@ async def citation(ctx, arg = None):
     await ctx.message.delete()
 
 # Commande pour compter les citations
+
+
 @bot.command()
 async def count(ctx):
     # On compte les citations
@@ -135,13 +139,13 @@ async def count(ctx):
     # On créé un embed
     embed = Embed(
         title="J'ai n citations, tel que :",
-        description="```" + str(a) + "n² - " + str(a*(n + n2)) + "n - " + str(-a*n*n2) + " = 0``````n > 0```"
+        description="```" + str(a) + "n² - " + str(a*(n + n2)) +
+        "n - " + str(-a*n*n2) + " = 0``````n > 0```"
     )
 
     # On envoit
     await ctx.send(embed=embed)
     await ctx.message.delete()
-
 
 
 #
@@ -160,6 +164,8 @@ async def item(ctx):
     await ctx.message.delete()
 
 # Commande de pile ou face
+
+
 @bot.command()
 async def pileface(ctx):
     # On décide et envoie le résultat
@@ -167,12 +173,13 @@ async def pileface(ctx):
     await ctx.message.delete()
 
 # Commande de token
+
+
 @bot.command()
 async def token(ctx):
     # On envoi le token
     await ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
     await ctx.message.delete()
-
 
 
 #
@@ -182,6 +189,8 @@ async def token(ctx):
 morpion_games = []
 
 # Commande de morpion
+
+
 @bot.command()
 async def morpion(ctx):
     # On démarre une partie de morpion
@@ -189,6 +198,18 @@ async def morpion(ctx):
     morpion_games.append(game)
     await ctx.message.delete()
     await game.nextMove()
+
+# Commande de morpion
+
+
+@bot.command()
+async def morpionbot(ctx):
+    # On démarre une partie de morpion
+    game = MorpionGame(3, MorpionHuman("O"), MorpionComputer("X"), ctx)
+    morpion_games.append(game)
+    await ctx.message.delete()
+    await game.nextMove()
+
 
 @bot.listen()
 async def on_reaction_add(reaction, user):
@@ -206,4 +227,3 @@ async def on_reaction_add(reaction, user):
             if game.current == "*":
                 morpion_games.remove(game)
                 return
-            
