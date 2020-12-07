@@ -141,7 +141,7 @@ class MorpionGame:
         output = ""
 
         # Players
-        output += "**" + self.player1.name + "** / **" + self.player2.name + "**\n\n"
+        output += "**" + self.player1.display_name + "** / **" + self.player2.display_name + "**\n\n"
 
         # Lines
         for y in range(self.size):
