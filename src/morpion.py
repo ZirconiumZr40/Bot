@@ -141,7 +141,7 @@ class MorpionGame:
         output = ""
 
         # Players
-        output += "**" + self.player1.display_name + "** / **" + self.player2.display_name + "**\n\n"
+        output += "**" + self.player1.name + "** / **" + self.player2.name + "**\n\n"
 
         # Lines
         for y in range(self.size):
@@ -240,7 +240,7 @@ class MorpionGame:
         # On iterate les joueurs pour jouer
         for player in [self.player1, self.player2]:
             if player.sign == self.current and (player.id == -1 or player.id == user.id):
-                player.name = user.name
+                player.name = user.display_name
                 await player.completion(x, y)
 
     # Change la valeur d'une case si libre
