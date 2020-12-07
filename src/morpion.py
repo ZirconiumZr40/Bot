@@ -26,6 +26,11 @@ Class MorpionComputer - Implementation de MorpionPlayer pour l'ordinateur
 
 class MorpionComputer(MorpionPlayer):
 
+    def __init__(self, sign, name):
+        self.sign = sign
+        self.name = name
+        self.id = -2
+
     async def play(self, game, completion):
         (x, y) = self.bestMove(game, game.table, game.size, self.sign)[0]
         await completion(x, y)
@@ -141,9 +146,9 @@ class MorpionGame:
         output = ""
 
         # Players
-        output += "**" + self.player1.name + "** (" + self.convertChar(
-            self.player1.sign, -1, -1) + ") / **" + self.player2.name + "** (" + \
-            self.convertChar(self.player2.sign, -1, -1) + ")\n\n"
+        output += self.convertChar(self.player1.sign, -1, -1) + " : **" + self.player1.name + \
+            "**\n" + self.convertChar(self.player2.sign, -1, -1) + \
+            " : **" + self.player2.name + "**\n\n"
 
         # Lines
         for y in range(self.size):
@@ -161,7 +166,7 @@ class MorpionGame:
                     output += "Victoire de " + player.name + " !"
                     break
             else:
-                output += "Match nul !"
+                output += "Match nul ! (donc Nathan a gagné xD)"
         else:
             output += "Cliquez sur un chiffre pour jouer"
 
