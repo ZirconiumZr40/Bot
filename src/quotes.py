@@ -213,6 +213,7 @@ Quote("Bon bah, écoutez, débrouillez vous !", "Stefano S.")
 Quote("L'air est plus visqueux que le vide", "Stefano S.")
 Quote("C'est une représentation qu'on utilisera JAMAIS, mais c'est important de la comprendre", "Stefano S.")
 Quote("Je fais copier, contrôle-c, puis contrôle-v", "Stefano S.")
+Quote("Oh bah non :|", "Stefano S.")
 
 
 # Citations de Baptiste
