@@ -7,6 +7,8 @@ Pour ajouter des citations, voir plus bas dans le fichier
 """
 
 # Structure des citations
+
+
 class Quote:
     """
     L'objet Quote est utilisé pour représenter une citation d'un professeur, ou autre.\n
@@ -18,7 +20,7 @@ class Quote:
 
     # Initialisation d'une variable de classe, pour définir des poids cumulatifs
 
-    def __init__(self, text, author, weight = 100):
+    def __init__(self, text, author, weight=100):
         # Initialisation de attributs
         self.text = text
         self.author = author
@@ -27,23 +29,24 @@ class Quote:
         # Ajout dans les listes, pour pouvoir être choisi par la fonction choices
         quotes.append(self)
         quotesWeight.append(weight)
-    
+
     def __contains__(self, other):
         # On définit le in pour permettre de vérifier l'auteur simplement
         if type(other) != str:
             raise TypeError
-        
+
         if other.lower() in self.author.lower():
             return True
         return False
-
 
 
 global quotesToPull
 quotesToPull = []
 
 # Tirage d'une citation
-def random_quote(author = None):
+
+
+def random_quote(author=None):
     """ Tire une citation au hasard dans la liste pondéré des citations """
     # Si un auteur particulier et demandé
     if author != None:
@@ -58,10 +61,10 @@ def random_quote(author = None):
                     # On ajoute dans les listes que les quotes correspondantes
                     newQuotesToPull.append(i)
                     newQuotesWeight.append(i.weight)
-            
+
             # On donne une citation aléatoire de la nouvelle liste
-            return choices(newQuotesToPull, weights = newQuotesWeight, k = 1)[0]
-        
+            return choices(newQuotesToPull, weights=newQuotesWeight, k=1)[0]
+
         except:
             # Si il y a un problème, on ignore et fait comme si aucun argument n'avait été passé
             pass
@@ -73,8 +76,8 @@ def random_quote(author = None):
     # On regarde si la liste contient des quotes
     if len(quotesToPull) == 0:
         # Si la liste est vide, on prend 12 éléments de la liste, avec répétition, car on peut pas faire autrement
-        quotesToPull = choices(quotes, weights = quotesWeight, k = 12)
-        
+        quotesToPull = choices(quotes, weights=quotesWeight, k=12)
+
         # On prepare une liste pour y stocker les index des valeurs à supprimer
         toDelete = []
 
@@ -101,13 +104,15 @@ def random_quote(author = None):
     return quotesToPull.pop(randint(0, len(quotesToPull) - 1))
 
 # Comptage du nombre de citations
+
+
 def quotes_count():
     return len(quotes)
+
 
 # Création des listes des citations
 quotes = []
 quotesWeight = []
-
 
 
 """
@@ -162,6 +167,13 @@ Quote("J'ai besoin d'un rendez-vous chez l'ophtalmo", "Vincent V.K.")
 Quote("Si vous savez calculer une dérivée, vous savez calculer une primitive.", "Vincent V.K.")
 Quote("Une primite", "Vincent V.K.")
 Quote("C'est presque du terrorisme de mettre de la colle", "Vincent V.K.")
+Quote("T'arrêtes de parler !", "Vincent V.K.")
+Quote("C'est moi qui vait me faire engueuler à crier comme ça", "Vincent V.K.")
+Quote("Ouf !", "Vincent V.K.")
+Quote("C'est une perte de temps et d'énergie... Non c'est bien !", "Vincent V.K.")
+Quote("C'est toujours des filles qui gloussent", "Vincent V.K.")
+Quote("Vous me trouvez sexiste mais c'est la vérité", "Vincent V.K.")
+Quote("Ah ça y est j'ai attrapé le covid !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -197,10 +209,17 @@ Quote("Vous récitez ça tous les matins pendant 10 jours et puis c'est bon !", 
 Quote("Revenons à nos moutons", "Stefano S.")
 Quote("Vous n'avez pas honte !", "Stefano S.")
 Quote("Oh bah non :|", "Stefano S.")
+Quote("Je vous souhaite bien du plaisir", "Stefano S.")
+Quote("Bon bah, écoutez, débrouillez vous !", "Stefano S.")
+Quote("L'air est plus visqueux que le vide", "Stefano S.")
+Quote("C'est une représentation qu'on utilisera JAMAIS, mais c'est important de la comprendre", "Stefano S.")
+Quote("Je fais copier, contrôle-c, puis contrôle-v", "Stefano S.")
+Quote("Oh bah non :|", "Stefano S.")
 
 
 # Citations de Baptiste
-Quote("Tout seul on va plus vite, ensemble on va plus loin.", "Baptiste H. (proverbe africain)")
+Quote("Tout seul on va plus vite, ensemble on va plus loin.",
+      "Baptiste H. (proverbe africain)")
 Quote("Oh, c'est pas très sympatique ça.", "Baptiste H.")
 Quote("Il y a des normes.", "Baptiste H.")
 Quote("On s'en fou si on arrive pas à lire, du moment qu'on comprend ce qu'il faut faire !", "Baptiste H.")
@@ -229,6 +248,8 @@ Quote("Un panda, c'est pas un raton-laveur.", "Claire T.B.")
 Quote("C'est vraiment cette heure là.", "Claire T.B.")
 Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pots. Sur ses coussinets.", "Claire T.B.")
 Quote("A washing raton.", "Claire T.B.")
+Quote("Ça commence mal, ça commence mal !", "Claire T.B.")
+Quote("Oh non, ça y est, je vous retrouve !", "Claire T.B.")
 
 
 # Citations de Benjamin
@@ -240,11 +261,12 @@ Quote("Là on est en 2015, et on va faire le grand saut en 2020 !", "Marc V.T.")
 
 
 # Citations de philosophes/auteurs
-Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" + \
+Quote("Quiconque lutte contre des monstres devrait prendre garde, dans le combat, à ne pas devenir monstre lui-même.\n" +
       "Et quant à celui qui scrute le fond de l'abysse, l'abysse le scrute à son tour.", "Friedrich Nietzsche", 70)
 Quote("Dieu est mort ! Dieu reste mort ! Et c'est nous qui l'avons tué !\nComment nous consoler, nous les meurtriers des meurtriers ?", "Friedrich Nietzsche", 70)
 Quote("Seule deux choses sont infinies, l'univers et la bêtise humaine.\nMais pour l'univers, je n'en ai pas encore la certitude absolue.", "Albert Einstein", 70)
-Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.", "J. Robert Oppenheimer", 70) # La faute est authentique à la citation originelle
+Quote("Maintenant j'ai devenu la Mort, le destructeur de monde.",
+      "J. Robert Oppenheimer", 70)  # La faute est authentique à la citation originelle
 
 
 # Citations des élèves - Note, pas fait pour les insultes, juste pour quand quelqu'un sort quelque chose de mémorable
@@ -255,6 +277,7 @@ Quote("En plus y a pas de meuf en prepa", "Léo I.", 50)
 Quote("J'ai oublié un moins, je suis stupide !", "Emilien G.", 50)
 Quote("Heuuuuu", "Valentine C.", 50)
 Quote("C'est intéressant quand on sait faire", "Guillaume F.", 50)
+Quote("Mollo l'asticot !", "Guillaume F.", 50)
 
 
 # Citations anonymes
@@ -265,7 +288,8 @@ Quote("Tout est relatif, sauf la vodka, qui est absolute !", "Anonyme", 30)
 Quote("We can be do, to do. What we want to do!", "François Hollande", 30)
 Quote("Yes, **WE CAN!**", "Barrack Obama", 30)
 Quote("Ich bin ein Berliner!", "John F. Kennedy", 30)
-Quote("Il ne faut jamais croire les citations trouvées sur Internet.", "Albert Einstein", 30)
+Quote("Il ne faut jamais croire les citations trouvées sur Internet.",
+      "Albert Einstein", 30)
 Quote("01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001", "Bot", 30)
 Quote("Les deux machines fonctionnent", "Surveillant", 30)
 
