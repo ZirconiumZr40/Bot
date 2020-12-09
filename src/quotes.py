@@ -173,6 +173,7 @@ Quote("Ouf !", "Vincent V.K.")
 Quote("C'est une perte de temps et d'énergie... Non c'est bien !", "Vincent V.K.")
 Quote("C'est toujours des filles qui gloussent", "Vincent V.K.")
 Quote("Vous me trouvez sexiste mais c'est la vérité", "Vincent V.K.")
+Quote("Ah ça y est j'ai attrapé le covid !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -210,6 +211,8 @@ Quote("Vous n'avez pas honte !", "Stefano S.")
 Quote("Je vous souhaite bien du plaisir", "Stefano S.")
 Quote("Bon bah, écoutez, débrouillez vous !", "Stefano S.")
 Quote("L'air est plus visqueux que le vide", "Stefano S.")
+Quote("C'est une représentation qu'on utilisera JAMAIS, mais c'est important de la comprendre", "Stefano S.")
+Quote("Je fais copier, contrôle-c, puis contrôle-v", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -272,6 +275,7 @@ Quote("En plus y a pas de meuf en prepa", "Léo I.", 50)
 Quote("J'ai oublié un moins, je suis stupide !", "Emilien G.", 50)
 Quote("Heuuuuu", "Valentine C.", 50)
 Quote("C'est intéressant quand on sait faire", "Guillaume F.", 50)
+Quote("Mollo l'asticot !", "Guillaume F.", 50)
 
 
 # Citations anonymes
