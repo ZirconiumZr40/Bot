@@ -140,12 +140,12 @@ Quote("N'utilisez pas de blanco, n'utilisez pas de gomme. Encadrez vos erreurs !
 Quote("Bon les enfants, c'est l'heure !", "Vincent V.K.")
 Quote("Tout le reste, c'est une question d'échelle.", "Vincent V.K.")
 Quote("Ce qui est un signe de maladie mentale.", "Vincent V.K.")
-Quote("Pôle Emploi va vous recevoir ... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.")
-Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\n Ça vous a plu, du coup vous allez le refaire !", "Vincent V.K.")
+Quote("Pôle Emploi va vous recevoir... vous aurez pas de travail, mais il va vous recevoir !", "Vincent V.K.")
+Quote("Vous tapez sur des clous, vous vous tapez une fois sur le doigt.\nÇa vous a plu, du coup vous allez le refaire !", "Vincent V.K.")
 Quote("Ça va de pas beaucoup, à pas mal", "Vincent V.K.")
 Quote("C'est ça que ça veut dire !", "Vincent V.K.")
 Quote("Si vous aimez pas la formule du binôme, et bah on vous emmerde !", "Vincent V.K.")
-Quote("Ça te servira jusqu'à la fin de tes jours en prépa ... qui ne seront peut-être pas longs.", "Vincent V.K.")
+Quote("Ça te servira jusqu'à la fin de tes jours en prépa... qui ne seront peut-être pas longs.", "Vincent V.K.")
 Quote("L'honnêteté intellectuelle, bah c'est l'inverse de la malhonnêteté intellectuelle.", "Vincent V.K.")
 Quote("On est ce qu'on appelle un truand.", "Vincent V.K.")
 Quote("Relis ton cours !", "Vincent V.K.")
@@ -181,6 +181,7 @@ Quote("Que vous soyez pas sérieux, j'en doute pas une seconde, j'avais remarqu�
 Quote("Y'avait ça dans votre interro... y'en a qui connaissaient pas vraiment", "Vincent V.K.")
 Quote("Vous allez mourir du covid si je ferme la fenêtre. C'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
 Quote("Demandez un rendez-vous à la proviseur, dites lui que je suis un sadique", "Vincent V.K.")
+Quote("OH ! J'ai déjà vu cette énormité", "Vincent V.K.")
 
 
 # Citations de Stefano
