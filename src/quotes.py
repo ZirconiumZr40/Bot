@@ -174,6 +174,13 @@ Quote("C'est une perte de temps et d'énergie... Non c'est bien !", "Vincent V.K
 Quote("C'est toujours des filles qui gloussent", "Vincent V.K.")
 Quote("Vous me trouvez sexiste mais c'est la vérité", "Vincent V.K.")
 Quote("Ah ça y est j'ai attrapé le covid !", "Vincent V.K.")
+Quote("Il fait chier lui ! Il arrive en retard et il regarde son téléphone", "Vincent V.K.")
+Quote("Ça se fait en... assez vite", "Vincent V.K.")
+Quote("Ça c'est connu depuis belle lurette", "Vincent V.K.")
+Quote("Que vous soyez pas sérieux, j'en doute pas une seconde, j'avais remarqué", "Vincent V.K.")
+Quote("Y'avait ça dans votre interro... y'en a qui connaissaient pas vraiment", "Vincent V.K.")
+Quote("Vous allez mourir du covid si je ferme la fenêtre. C'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
+Quote("Demandez un rendez-vous à la proviseur, dites lui que je suis un sadique", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -237,6 +244,7 @@ Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
 Quote("Cordialement", "René L.")
 Quote("C'est des vieux shnocks comme moi !", "René L.")
 Quote("bboonnjjoouurr lleess aammiiss", "René L.")
+Quote("Le crible d'Erastothène", "René L.")
 
 
 # Citations de Claire
