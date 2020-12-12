@@ -182,6 +182,7 @@ Quote("Y'avait ça dans votre interro... y'en a qui connaissaient pas vraiment",
 Quote("Vous allez mourir du covid si je ferme la fenêtre. C'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
 Quote("Demandez un rendez-vous à la proviseur, dites lui que je suis un sadique", "Vincent V.K.")
 Quote("OH ! J'ai déjà vu cette énormité", "Vincent V.K.")
+Quote("Mon crétin de fils est parti en vacances en Amérique du Sud. Niveau crétin, à côté de mon fils, vous êtes des amateurs !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -245,7 +246,7 @@ Quote("bONJOUR cHARLES ON FAIT LE TD DE CE mARDI", "René L.")
 Quote("Cordialement", "René L.")
 Quote("C'est des vieux shnocks comme moi !", "René L.")
 Quote("bboonnjjoouurr lleess aammiiss", "René L.")
-Quote("Le crible d'Erastothène", "René L.")
+Quote("LE CRIBLE D'ERASTOTHENE !", "René L.")
 
 
 # Citations de Claire
