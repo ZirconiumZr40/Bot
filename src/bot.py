@@ -11,17 +11,16 @@ from discord import Embed, Game
 from quotes import random_quote, quotes_count
 from item_chest import generateItem
 from clear import clearChannel, emptyChannel
+from morpion import MorpionGame, MorpionHuman, MorpionComputer
 
 # Import du random
 from random import randint
-
 
 
 """ Initialisation du bot """
 
 # On init le bot
 bot = commands.Bot(command_prefix='.')
-
 
 
 # Quand le bot est pret
@@ -34,19 +33,24 @@ async def on_ready():
     await bot.change_presence(activity=Game('https://github.com/MPSI1Thuillier/Bot'))
 
 
-
 """ Définition des commandes """
 
+#
+# Commandes de controles
+#
+
 # Commande de ping
+
+
 @bot.command()
 async def ping(ctx):
     # On répond pong
     await ctx.send('Pong')
     await ctx.message.delete()
 
-
-
 # Commande de reboot
+
+
 @bot.command()
 @commands.is_owner()
 async def reboot(ctx):
@@ -56,9 +60,9 @@ async def reboot(ctx):
     await ctx.message.delete()
     quit()
 
-
-
 # Commande de stop
+
+
 @bot.command()
 @commands.is_owner()
 async def stop(ctx):
@@ -68,6 +72,9 @@ async def stop(ctx):
     quit()
 
 
+#
+# Commandes de gestion des channels
+#
 
 # Commande de clear
 @bot.command()
@@ -77,9 +84,9 @@ async def clear(ctx):
     await clearChannel(ctx)
     await ctx.message.delete()
 
-
-
 # Commande de empty
+
+
 @bot.command()
 async def empty(ctx):
     # On supprime tous les messages
@@ -87,6 +94,9 @@ async def empty(ctx):
     await ctx.message.delete()
 
 
+#
+# Commandes d'info
+#
 
 # Guide de la contribution
 @bot.command()
@@ -96,10 +106,13 @@ async def contribution(ctx):
     await ctx.message.delete()
 
 
+#
+# Commandes de citation
+#
 
 # Commande de citation
 @bot.command()
-async def citation(ctx, arg = None):
+async def citation(ctx, arg=None):
     # On choisi une citation
     quote = random_quote(arg)
 
@@ -111,9 +124,9 @@ async def citation(ctx, arg = None):
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
-
-
 # Commande pour compter les citations
+
+
 @bot.command()
 async def count(ctx):
     # On compte les citations
@@ -126,13 +139,18 @@ async def count(ctx):
     # On créé un embed
     embed = Embed(
         title="J'ai n citations, tel que :",
-        description="```" + str(a) + "n² - " + str(a*(n + n2)) + "n - " + str(-a*n*n2) + " = 0``````n > 0```"
+        description="```" + str(a) + "n² - " + str(a*(n + n2)) +
+        "n - " + str(-a*n*n2) + " = 0``````n > 0```"
     )
 
     # On envoit
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
+
+#
+# Commandes funs
+#
 
 # Commande d'item
 @bot.command()
@@ -145,20 +163,67 @@ async def item(ctx):
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
-
-
 # Commande de pile ou face
+
+
 @bot.command()
 async def pileface(ctx):
     # On décide et envoie le résultat
     await ctx.send("Le résulat est : {}".format(["Pile", "Face"][randint(0, 1)]))
     await ctx.message.delete()
 
-
-
 # Commande de token
+
+
 @bot.command()
 async def token(ctx):
     # On envoi le token
     await ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
     await ctx.message.delete()
+
+
+#
+# Commande de morpion et listen des reactions
+#
+
+morpion_games = []
+
+# Commande de morpion
+
+
+@bot.command()
+async def morpion(ctx):
+    # On démarre une partie de morpion
+    game = MorpionGame(3, MorpionHuman("O", "Joueur 1"), MorpionHuman("X", "Joueur 2"), ctx)
+    morpion_games.append(game)
+    await ctx.message.delete()
+    await game.nextMove()
+
+# Commande de morpion
+
+
+@bot.command()
+async def morpionbot(ctx):
+    # On démarre une partie de morpion
+    game = MorpionGame(3, MorpionHuman("O", "Joueur 1"), MorpionComputer("X", "Ordinateur"), ctx)
+    morpion_games.append(game)
+    await ctx.message.delete()
+    await game.nextMove()
+
+
+@bot.listen()
+async def on_reaction_add(reaction, user):
+    # On check que c'est pas le bot
+    if user.bot:
+        return
+
+    # On récupère la game liée au message et on joue
+    for game in morpion_games:
+        if game.message != None and reaction.message.id == game.message.id:
+            # On joue avec la réaction
+            await game.playFromReaction(reaction.emoji, user)
+
+            # On clear la game si c'est fini
+            if game.current == "*":
+                morpion_games.remove(game)
+                return
