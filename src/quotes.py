@@ -265,6 +265,10 @@ Quote("Oh non, ça y est, je vous retrouve !", "Claire T.B.")
 Quote("ln(2) = 0.69, ça se retient !", "Benjamin D.")
 
 
+# Citations des khôleurs
+Quote("Léo, tu es encore vivant ou tu es en PLS ?", "C. Bouloy")
+
+
 # Citations de Marc (Prof d'Allemand)
 Quote("Là on est en 2015, et on va faire le grand saut en 2020 !", "Marc V.T.")
 
