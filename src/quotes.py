@@ -182,7 +182,12 @@ Quote("Y'avait ça dans votre interro... y'en a qui connaissaient pas vraiment",
 Quote("Vous allez mourir du covid si je ferme la fenêtre. C'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
 Quote("Demandez un rendez-vous à la proviseur, dites lui que je suis un sadique", "Vincent V.K.")
 Quote("OH ! J'ai déjà vu cette énormité", "Vincent V.K.")
-Quote("Mon crétin de fils est parti en vacances en Amérique du Sud. Niveau crétin, à côté de mon fils, vous êtes des amateurs !", "Vincent V.K.")
+Quote("Vous croyez qu'il y a des fantômes dans ce lycée ?", "Vincent V.K.")
+Quote("On ne peut plus rien pour vous", "Vincent V.K.")
+Quote("On réfléchit pas quand c'est pas nécessaire", "Vincent V.K.")
+Quote("C'est l'auto confinement : on reste confiné dans sa voiture", "Vincent V.K.")
+Quote("1 + 1 = 0", "Vincent V.K.")
+Quote("Je vous souhaite bien du courage ! _tape du pied_", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -223,6 +228,10 @@ Quote("L'air est plus visqueux que le vide", "Stefano S.")
 Quote("C'est une représentation qu'on utilisera JAMAIS, mais c'est important de la comprendre", "Stefano S.")
 Quote("Je fais copier, contrôle-c, puis contrôle-v", "Stefano S.")
 Quote("Oh bah non :|", "Stefano S.")
+Quote("Si vous dites ça vaut 1, vous allez faire sauter au plafond celui qui vous écoute", "Stefano S.")
+Quote("Et le tour est joué !", "Stefano S.")
+Quote("Les équa diff on en a marre !", "Stefano S.")
+Quote("C'est du calcul mathématique, c'est pas intéressant", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -247,6 +256,8 @@ Quote("Cordialement", "René L.")
 Quote("C'est des vieux shnocks comme moi !", "René L.")
 Quote("bboonnjjoouurr lleess aammiiss", "René L.")
 Quote("LE CRIBLE D'ERASTOTHENE !", "René L.")
+Quote("Entrecôte", "René L.")
+Quote("C'est moi qui décide, eh !", "René L.")
 
 
 # Citations de Claire
@@ -266,7 +277,7 @@ Quote("ln(2) = 0.69, ça se retient !", "Benjamin D.")
 
 
 # Citations des khôleurs
-Quote("Léo, tu es encore vivant ou tu es en PLS ?", "C. Bouloy")
+Quote("Léo, tu es encore vivant ou tu es en PLS ?", "Christophe B.")
 
 
 # Citations de Marc (Prof d'Allemand)
@@ -291,6 +302,9 @@ Quote("J'ai oublié un moins, je suis stupide !", "Emilien G.", 50)
 Quote("Heuuuuu", "Valentine C.", 50)
 Quote("C'est intéressant quand on sait faire", "Guillaume F.", 50)
 Quote("Mollo l'asticot !", "Guillaume F.", 50)
+Quote("Cherche pas je suis con", "Guillaume F.", 50)
+Quote("Qu'est ce que c'est bien de réfléchir", "Guillaume F.", 50)
+Quote("- Vous avez fait la fête ?\n- Oui", "Vincent V.K et Sammy S.A.", 50)
 
 
 # Citations anonymes
