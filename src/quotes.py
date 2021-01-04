@@ -305,6 +305,7 @@ Quote("Mollo l'asticot !", "Guillaume F.", 50)
 Quote("Cherche pas je suis con", "Guillaume F.", 50)
 Quote("Qu'est ce que c'est bien de réfléchir", "Guillaume F.", 50)
 Quote("- Vous avez fait la fête ?\n- Oui", "Vincent V.K et Sammy S.A.", 50)
+Quote("Je pensais ne pas y arriver, et... je n'y suis pas arrivé", "Emilien G.", 50)
 
 
 # Citations anonymes
