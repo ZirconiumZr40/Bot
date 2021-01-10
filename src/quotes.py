@@ -188,6 +188,11 @@ Quote("On réfléchit pas quand c'est pas nécessaire", "Vincent V.K.")
 Quote("C'est l'auto confinement : on reste confiné dans sa voiture", "Vincent V.K.")
 Quote("1 + 1 = 0", "Vincent V.K.")
 Quote("Je vous souhaite bien du courage ! _tape du pied_", "Vincent V.K.")
+Quote("Personne ne t'aime !", "Vincent V.K.")
+Quote("Bon, là il doit être mort", "Vincent V.K.")
+Quote("Si ça se trouve, c'est vous qui l'avez jeté au fond de la somme", "Vincent V.K.")
+Quote("C'est ça, vous n'aimez pas les maths", "Vincent V.K.")
+Quote("Vous pouvez mépriser les profs, mais vous n'avez pas le droit de le montrer", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -232,6 +237,7 @@ Quote("Si vous dites ça vaut 1, vous allez faire sauter au plafond celui qui vo
 Quote("Et le tour est joué !", "Stefano S.")
 Quote("Les équa diff on en a marre !", "Stefano S.")
 Quote("C'est du calcul mathématique, c'est pas intéressant", "Stefano S.")
+Quote("Ça, ça s'appelle... ah bah je sais pas comment on pourrait l'appeler", "Stefano S.")
 
 
 # Citations de Baptiste
