@@ -193,6 +193,10 @@ Quote("Bon, là il doit être mort", "Vincent V.K.")
 Quote("Si ça se trouve, c'est vous qui l'avez jeté au fond de la somme", "Vincent V.K.")
 Quote("C'est ça, vous n'aimez pas les maths", "Vincent V.K.")
 Quote("Vous pouvez mépriser les profs, mais vous n'avez pas le droit de le montrer", "Vincent V.K.")
+Quote("Ces chiffres là ils dégagent !", "Vincent V.K.")
+Quote("Il faut avancer... ou reculer", "Vincent V.K.")
+Quote("Ça fait exponentielle... heu non partie entière", "Vincent V.K.")
+Quote("Vous faites bien pire sur vos copies", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -238,6 +242,9 @@ Quote("Et le tour est joué !", "Stefano S.")
 Quote("Les équa diff on en a marre !", "Stefano S.")
 Quote("C'est du calcul mathématique, c'est pas intéressant", "Stefano S.")
 Quote("Ça, ça s'appelle... ah bah je sais pas comment on pourrait l'appeler", "Stefano S.")
+Quote("Non ça marche pas ce que je dis... Ah mais si si si ça marchait ! Un moment de panique...", "Stefano S.")
+Quote("Le dénominateur il explose", "Stefano S.")
+Quote("Ça, je vous le laisse en exercice", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -280,6 +287,8 @@ Quote("Oh non, ça y est, je vous retrouve !", "Claire T.B.")
 
 # Citations de Benjamin
 Quote("ln(2) = 0.69, ça se retient !", "Benjamin D.")
+Quote("Une fois qu'on a sorti le gros engin, il n'y a plus qu'à l'utiliser", "Benjamin D.")
+Quote("Ça se téléscope bien", "Benjamin D.")
 
 
 # Citations des khôleurs
