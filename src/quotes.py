@@ -250,8 +250,8 @@ Quote("Ça, je vous le laisse en exercice", "Stefano S.")
 Quote("Ah oui, on peut le compliquer autant qu(on veut", "Stefano S.")
 Quote("Quand φ = π/2, ça permet d'arnaquer EDF", "Stefano S.")
 Quote("C'est gagné, vous avez arnaqué EDF !", "Stefano S.")
-Quote("Si vous savez faire des maths dans compter, je vous autorise à faire de la physique dans vérifier l'homogénéité.", "Stefano S.")
-Quote("Se présenter aux concours dans savoir faire l'homogénéité, c'est suicidaire !", "Stefano S.")
+Quote("Si vous savez faire des maths sans compter, je vous autorise à faire de la physique sans vérifier l'homogénéité.", "Stefano S.")
+Quote("Se présenter aux concours sans savoir faire l'homogénéité, c'est suicidaire !", "Stefano S.")
 
 
 # Citations de Baptiste
