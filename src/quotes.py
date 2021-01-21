@@ -1,10 +1,10 @@
-# Import du random
-from random import choices, randint
-
 """
 Définition des classes et des fonctions
 Pour ajouter des citations, voir plus bas dans le fichier
 """
+
+# Import du random
+from random import choice, choices, randint
 
 # Structure des citations
 
@@ -102,6 +102,20 @@ def random_quote(author=None):
 
     # Puis on return une citation au hasard et l'enlève de la liste
     return quotesToPull.pop(randint(0, len(quotesToPull) - 1))
+
+# Tirage d'une citation pour le quiz
+
+def quiz_quote():
+    # On part d'une string vide
+    current = ""
+
+    # Tant que c'est pas une citation avec une seule virgule
+    while current.count(",") != 1:
+        # On enprend une nouvelle
+        current = choice(quotes).text
+
+    # Quand c'est bon on return
+    return current
 
 # Comptage du nombre de citations
 
