@@ -211,6 +211,8 @@ Quote("Ces chiffres là ils dégagent !", "Vincent V.K.")
 Quote("Il faut avancer... ou reculer", "Vincent V.K.")
 Quote("Ça fait exponentielle... heu non partie entière", "Vincent V.K.")
 Quote("Vous faites bien pire sur vos copies", "Vincent V.K.")
+Quote("Si vous pensez que vous avez atteint vos limites...", "Vincent V.K.")
+Quote("Peut être qu'elle le font mieux... ou moins mal", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -259,6 +261,11 @@ Quote("Ça, ça s'appelle... ah bah je sais pas comment on pourrait l'appeler", 
 Quote("Non ça marche pas ce que je dis... Ah mais si si si ça marchait ! Un moment de panique...", "Stefano S.")
 Quote("Le dénominateur il explose", "Stefano S.")
 Quote("Ça, je vous le laisse en exercice", "Stefano S.")
+Quote("Ah oui, on peut le compliquer autant qu(on veut", "Stefano S.")
+Quote("Quand φ = π/2, ça permet d'arnaquer EDF", "Stefano S.")
+Quote("C'est gagné, vous avez arnaqué EDF !", "Stefano S.")
+Quote("Si vous savez faire des maths sans compter, je vous autorise à faire de la physique sans vérifier l'homogénéité.", "Stefano S.")
+Quote("Se présenter aux concours sans savoir faire l'homogénéité, c'est suicidaire !", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -267,6 +274,8 @@ Quote("Tout seul on va plus vite, ensemble on va plus loin.",
 Quote("Oh, c'est pas très sympatique ça.", "Baptiste H.")
 Quote("Il y a des normes.", "Baptiste H.")
 Quote("On s'en fou si on arrive pas à lire, du moment qu'on comprend ce qu'il faut faire !", "Baptiste H.")
+Quote("Fatiguez moi là un peu quand même !", "Baptiste H.")
+Quote("Un jour vous arriverez à vous tuer", "Baptiste H.")
 
 
 # Citations de René
@@ -297,6 +306,7 @@ Quote("Le truc, c'est que si il marche sur ses petits *paws*. Sur ses petits pot
 Quote("A washing raton.", "Claire T.B.")
 Quote("Ça commence mal, ça commence mal !", "Claire T.B.")
 Quote("Oh non, ça y est, je vous retrouve !", "Claire T.B.")
+Quote("Gna gna, gna gna gna", "Claire T.B.")
 
 
 # Citations de Benjamin
