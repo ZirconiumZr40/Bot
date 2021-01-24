@@ -244,20 +244,21 @@ async def questionprepa(ctx):
     quote = quiz_quote()
 
     # On coupe à la virgule
-    parts = quote.split(", ")
+    parts = quote.text.split(", ")
 
     # On créé un embed
     embed = Embed(
         title="Trouver la fin de la citation :",
         description=parts[0] + ", ..."
     )
+    embed.set_footer(text=quote.author)
 
     # On envoit
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
     # On save la question
-    question = (ctx.author.id, parts[0], parts[1])
+    question = (ctx.author.id, quote)
     quiz_games.append(question)
 
 @bot.listen()
@@ -266,18 +267,21 @@ async def on_message(message):
     for question in quiz_games:
         if question[0] == message.author.id:
             # On est sur la réponse à notre question
-            if isAlmostEqual(message.content, question[2]):
+            if isAlmostEqual(message.content, question[1].text.split(", ")[1]):
                 # Bonne réponse
                 embed = Embed(
-                    title="Bonne réponse !!!",
+                    title="Bonne réponse !!! 👍",
+                    description=question[1].text
                 )
+                embed.set_footer(text=question[1].author)
                 await message.channel.send(embed=embed)
             else:
                 # Mauvaise réponse
                 embed = Embed(
-                    title="Mauvaise réponse !!!",
-                    description="La citation complète était :\n" + question[1] + ", " + question[2]
+                    title="Mauvaise réponse !!! 👎",
+                    description="La citation complète était :\n" + question[1].text
                 )
+                embed.set_footer(text=question[1].author)
                 await message.channel.send(embed=embed)
             
             # On le retire de la liste

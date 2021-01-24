@@ -107,12 +107,12 @@ def random_quote(author=None):
 
 def quiz_quote():
     # On part d'une string vide
-    current = ""
+    current = None
 
     # Tant que c'est pas une citation avec une seule virgule
-    while current.count(",") != 1:
+    while current == None or current.text.count(",") != 1:
         # On enprend une nouvelle
-        current = choice(quotes).text
+        current = choice(quotes)
 
     # Quand c'est bon on return
     return current
