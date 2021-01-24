@@ -213,6 +213,17 @@ Quote("Ça fait exponentielle... heu non partie entière", "Vincent V.K.")
 Quote("Vous faites bien pire sur vos copies", "Vincent V.K.")
 Quote("Si vous pensez que vous avez atteint vos limites...", "Vincent V.K.")
 Quote("Peut être qu'elle le font mieux... ou moins mal", "Vincent V.K.")
+Quote("C'est pas drôle... Quoi que... On peut s'amuser", "Vincent V.K.")
+Quote("Ça marche bien de noter des absents au hasard", "Vincent V.K.")
+Quote("Je compte sur vous pour faire preuve de rigueur... Nan je rigole !", "Vincent V.K.")
+Quote("Je sais pas si c'est le cours sur les suites qui vous terrifie à ce point", "Vincent V.K.")
+Quote("C'est évident que... Ah non c'est pas évident !", "Vincent V.K.")
+Quote("Ça ne m'intéresse pas, je gagne de l'argent autrement", "Vincent V.K.")
+Quote("Je me suis encore trompé !", "Vincent V.K.")
+Quote("Je ne sais même plus ce qu'il faut écrire !", "Vincent V.K.")
+Quote("Dans le cours, ya pas grand chose dont j'ai eu l'idée", "Vincent V.K.")
+Quote("Je suis pas du tout rigoureux, je vous montre ce qu'il ne faut pas faire", "Vincent V.K.")
+Quote("On est pas non plus des abrutis !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -266,6 +277,9 @@ Quote("Quand φ = π/2, ça permet d'arnaquer EDF", "Stefano S.")
 Quote("C'est gagné, vous avez arnaqué EDF !", "Stefano S.")
 Quote("Si vous savez faire des maths sans compter, je vous autorise à faire de la physique sans vérifier l'homogénéité.", "Stefano S.")
 Quote("Se présenter aux concours sans savoir faire l'homogénéité, c'est suicidaire !", "Stefano S.")
+Quote("Soit vous écoutez pas, soit votre mémoire ne dure que 2 minutes", "Stefano S.")
+Quote("Comme les concours ne durent pas une infinité de temps, vous n'allez pas pouvoir finir l'exercice", "Stefano S.")
+Quote("Ne me demandez pas pourquoi, j'en sais rien !", "Stefano S.")
 
 
 # Citations de Baptiste
