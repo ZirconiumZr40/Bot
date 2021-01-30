@@ -267,22 +267,15 @@ async def on_message(message):
     for question in quiz_games:
         if question[0] == message.author.id:
             # On est sur la réponse à notre question
-            if isAlmostEqual(message.content, question[1].text.split(", ")[1]):
-                # Bonne réponse
-                embed = Embed(
-                    title="Bonne réponse !!! 👍",
-                    description=question[1].text
-                )
-                embed.set_footer(text=question[1].author)
-                await message.channel.send(embed=embed)
-            else:
-                # Mauvaise réponse
-                embed = Embed(
-                    title="Mauvaise réponse !!! 👎",
-                    description="La citation complète était :\n" + question[1].text
-                )
-                embed.set_footer(text=question[1].author)
-                await message.channel.send(embed=embed)
+            isCorrect = isAlmostEqual(message.content, question[1].text.split(", ")[1])
+
+            # On créé le message de réponse
+            embed = Embed(
+                title="Bonne réponse !!! 👍" if isCorrect else "Mauvaise réponse !!! 👎",
+                description=question[1].text
+            )
+            embed.set_footer(text=question[1].author)
+            await message.channel.send(embed=embed)
             
             # On le retire de la liste
             quiz_games.remove(question)
