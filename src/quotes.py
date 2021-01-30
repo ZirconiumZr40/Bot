@@ -193,7 +193,7 @@ Quote("Ça se fait en... assez vite", "Vincent V.K.")
 Quote("Ça c'est connu depuis belle lurette", "Vincent V.K.")
 Quote("Que vous soyez pas sérieux, j'en doute pas une seconde, j'avais remarqué", "Vincent V.K.")
 Quote("Y'avait ça dans votre interro, y'en a qui connaissaient pas vraiment", "Vincent V.K.")
-Quote("Vous allez mourir du covid si je ferme la fenêtre, C'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
+Quote("Vous allez mourir du covid si je ferme la fenêtre, c'est à partir de -20°C qu'on meurt de froid", "Vincent V.K.")
 Quote("Demandez un rendez-vous à la proviseur, dites lui que je suis un sadique", "Vincent V.K.")
 Quote("OH ! J'ai déjà vu cette énormité", "Vincent V.K.")
 Quote("Vous croyez qu'il y a des fantômes dans ce lycée ?", "Vincent V.K.")
@@ -334,7 +334,7 @@ Quote("C'est moi qui décide, eh !", "René L.")
 Quote("Après, il reste la corde", "René L.")
 Quote("C'est en pratiquant, qu'on devient praticron", "René L.")
 Quote("Dans mon jardin j'ai fais le 100m en 7.3s, je suis un peu enrobé pour faire ça", "René L.")
-Quote("Il est plus courageur, moi je suis un lâche !", "René L.")
+Quote("Il est plus courageux, moi je suis un lâche !", "René L.")
 
 
 # Citations de Claire
