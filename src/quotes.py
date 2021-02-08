@@ -240,6 +240,17 @@ Quote("Et les suites, on aime bien les majorer", "Vincent V.K.")
 Quote("Les maths c'est très chiant !", "Vincent V.K.")
 Quote("Vous pouvez faire une sieste si vous voulez", "Vincent V.K.")
 Quote("N'oubliez jamais que l'anglais est la matière la plus important, il faut faire la sieste après", "Vincent V.K.")
+Quote("Y'en a qui se tromperaient en écrivant leur nom", "Vincent V.K.")
+Quote("Est-ce que j'ai le droit d'utiliser la règle pour frapper les élèves ?", "Vincent V.K.")
+Quote("Il y a un mystère que je ne préfère pas approfondir", "Vincent V.K.")
+Quote("Qu'est ce qu'il y a dans les points de suspension ? Quelque chose de maléfique !", "Vincent V.K.")
+Quote("Je ne traite plus les élèves de connard parce que c'est interdit, mais je n'en pense pas moins", "Vincent V.K.")
+Quote("Quelqu'un s'en souvient ? Bah tant mieux !", "Vincent V.K.")
+Quote("Si vous ne voulez pas faire de figure, vous n'êtes pas des génies mais des feignants", "Vincent V.K.")
+Quote("Oh tu me gonfles !", "Vincent V.K.")
+Quote("Pourquoi faire simple, quand on peut faire compliqué", "Vincent V.K.")
+Quote("Je voudrai que vous arretiez de vous noyer dans un verre d'eau", "Vincent V.K.")
+Quote("Là vous êtes des enfants", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -303,6 +314,11 @@ Quote("Un cheval, c'est une sphère", "Stefano S.")
 Quote("C'est égal à... bah je sais pas à quoi c'est égal", "Stefano S.")
 Quote("Si vous savez pas quoi faire, faites un tableau d'avancement", "Stefano S.")
 Quote("Là mon exemple il était un peu truqué", "Stefano S.")
+Quote("C'est très bien, il faut tomber dans le piège", "Stefano S.")
+Quote("Une réaction explosive, à tous les sens du terme !", "Stefano S.")
+Quote("On va le faire virtuellement", "Stefano S.")
+Quote("C'est de nouveau un subterfuge", "Stefano S.")
+Quote("On est dans un circuit de formule 1, et on est entrain de parler de la vitesse des voitures", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -348,6 +364,18 @@ Quote("A washing raton.", "Claire T.B.")
 Quote("Ça commence mal, ça commence mal !", "Claire T.B.")
 Quote("Oh non, ça y est, je vous retrouve !", "Claire T.B.")
 Quote("Gna gna, gna gna gna", "Claire T.B.")
+Quote("Oh mon dieu c'est magnifique", "Claire T.B.")
+Quote("Vous êtes excités comme des puces", "Claire T.B.")
+Quote("Je vais vous exploiter aujourd'hui", "Claire T.B.")
+Quote("Ne vieillissez pas", "Claire T.B.")
+
+
+# Citations de Thierry
+Quote("J'ai envie de vous faire remarquer que c'est le bins", "Thierry G.")
+Quote("C'est un peu l'auberge espagnole", "Thierry G.")
+Quote("Une colle par rapport à un cours c'est rien... Non", "Thierry G.")
+Quote("C'est un réel bien plus complexe", "Thierry G.")
+Quote("C'est pouette pouette à côté", "Thierry G.")
 
 
 # Citations de Benjamin
