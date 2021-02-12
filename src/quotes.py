@@ -367,7 +367,7 @@ Quote("Dans mon jardin j'ai fais le 100m en 7.3s, je suis un peu enrobé pour fa
 Quote("Il est plus courageux, moi je suis un lâche !", "René L.")
 Quote("Je touche le fond", "René L.")
 Quote("C'est la misère ici", "René L.")
-Quote("Allez, un bon point pour celui qui me donne la réponse de ce que je dois faire. Non ? Je vous rappel qu'avec 10 bon points, vous avez une image. Et avec 10 images, vous avez un poster de moi. Et pour certains, je fournis la flechette. N'est ce pas M. Ringot ? Mais le temps que vous ayez 10 images, je suis tranquille...", "René L.")
+Quote("Je vous rappel qu'avec 10 bon points, vous avez une image. Et avec 10 images, vous avez un poster de moi. Et pour certains, je fournis la flechette. N'est ce pas M. Ringot ? Mais le temps que vous ayez 10 images, je suis tranquille...", "René L.")
 
 
 # Citations de Claire
