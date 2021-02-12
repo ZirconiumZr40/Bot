@@ -251,6 +251,13 @@ Quote("Oh tu me gonfles !", "Vincent V.K.")
 Quote("Pourquoi faire simple, quand on peut faire compliqué", "Vincent V.K.")
 Quote("Je voudrai que vous arretiez de vous noyer dans un verre d'eau", "Vincent V.K.")
 Quote("Là vous êtes des enfants", "Vincent V.K.")
+Quote("Il faudra demander un cerveau pour votre anniversaire", "Vincent V.K.")
+Quote("Pour moi c'est trop tard, mon cerveau est foutu", "Vincent V.K.")
+Quote("J'ai pas le droit de le dire, mais ça commence par un c et ça fini par un n", "Vincent V.K.")
+Quote("Si vous ne simplifiez pas 3/6, c'est que vous avez loupé des classes", "Vincent V.K.")
+Quote("Je préfèrerais que tu me jettes de l'argent", "Vincent V.K.")
+Quote("Motif du retard : bataille de boules de neige", "Vincent V.K.")
+Quote("Qu'est ce que je raconte ? J'en sais rien !", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -319,6 +326,13 @@ Quote("Une réaction explosive, à tous les sens du terme !", "Stefano S.")
 Quote("On va le faire virtuellement", "Stefano S.")
 Quote("C'est de nouveau un subterfuge", "Stefano S.")
 Quote("On est dans un circuit de formule 1, et on est entrain de parler de la vitesse des voitures", "Stefano S.")
+Quote("Et là j'ai arrêté le temps", "Stefano S.")
+Quote("Pour l'amour de la science, il faut rester en place", "Stefano S.")
+Quote("Bah tu réfléchiras !", "Stefano S.")
+Quote("Le DS c'est toujours un moment de grande surprise...", "Stefano S.")
+Quote("On va éviter les artifices mathématiques", "Stefano S.")
+Quote("Ça permet de remonter le temps", "Stefano S.")
+Quote("Pour vous, votre professeur de physique ferait n'importe quoi !", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -351,6 +365,9 @@ Quote("Après, il reste la corde", "René L.")
 Quote("C'est en pratiquant, qu'on devient praticron", "René L.")
 Quote("Dans mon jardin j'ai fais le 100m en 7.3s, je suis un peu enrobé pour faire ça", "René L.")
 Quote("Il est plus courageux, moi je suis un lâche !", "René L.")
+Quote("Je touche le fond", "René L.")
+Quote("C'est la misère ici", "René L.")
+Quote("Allez, un bon point pour celui qui me donne la réponse de ce que je dois faire. Non ? Je vous rappel qu'avec 10 bon points, vous avez une image. Et avec 10 images, vous avez un poster de moi. Et pour certains, je fournis la flechette. N'est ce pas M. Ringot ? Mais le temps que vous ayez 10 images, je suis tranquille...", "René L.")
 
 
 # Citations de Claire
@@ -376,6 +393,8 @@ Quote("C'est un peu l'auberge espagnole", "Thierry G.")
 Quote("Une colle par rapport à un cours c'est rien... Non", "Thierry G.")
 Quote("C'est un réel bien plus complexe", "Thierry G.")
 Quote("C'est pouette pouette à côté", "Thierry G.")
+Quote("Allez c'est fini les vacances", "Thierry G.")
+Quote("Vous êtes fatigués ou quoi ?", "Thierry G.")
 
 
 # Citations de Benjamin
