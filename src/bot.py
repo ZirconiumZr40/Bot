@@ -2,10 +2,11 @@
 
 # Import des APIs system
 from os import system
+from io import BytesIO
 
 # Importation de l'API Discord
 from discord.ext import commands
-from discord import Embed, Game
+from discord import Embed, Game, File
 
 # On importe nos ressources
 from helper import isAlmostEqual
@@ -13,6 +14,7 @@ from quotes import random_quote, quiz_quote, quotes_count
 from item_chest import generateItem
 from clear import clearChannel, emptyChannel
 from morpion import MorpionGame, MorpionHuman, MorpionComputer
+from img import generate_image
 
 # Import du random
 from random import randint
@@ -148,6 +150,18 @@ async def count(ctx):
     await ctx.send(embed=embed)
     await ctx.message.delete()
 
+# Commande de wallpaper
+
+@bot.command()
+async def wallpaper(ctx):
+    # On préviens qu'on travail
+    await ctx.send("Génération du fond d'écran...")
+
+    # On génère une image
+    generate_image()
+
+    # On l'envoie
+    await ctx.send(file=File("wallpaper.jpg"))
 
 #
 # Commandes funs
