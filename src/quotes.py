@@ -226,7 +226,7 @@ Quote("Je suis pas du tout rigoureux, je vous montre ce qu'il ne faut pas faire"
 Quote("On est pas non plus des abrutis !", "Vincent V.K.")
 Quote("Ça a un sens, je crois", "Vincent V.K.")
 Quote("Je ne me trompe jamais dans les calculs, comme vous le savez", "Vincent V.K.")
-Quote("Les fautes d'orthogrphe, c'est grave !", "Vincent V.K.")
+Quote("Les fautes d'orthographe, c'est grave !", "Vincent V.K.")
 Quote("Les maths, ça sert à rien pour un ingénieur", "Vincent V.K.")
 Quote("Ça veut rien dire, c'est pour faire joli, c'est ma police de caractère à moi !", "Vincent V.K.")
 Quote("Peut être que je les ai gardé, ou je les ai perdu", "Vincent V.K.")
@@ -258,6 +258,22 @@ Quote("Si vous ne simplifiez pas 3/6, c'est que vous avez loupé des classes", "
 Quote("Je préfèrerais que tu me jettes de l'argent", "Vincent V.K.")
 Quote("Motif du retard : bataille de boules de neige", "Vincent V.K.")
 Quote("Qu'est ce que je raconte ? J'en sais rien !", "Vincent V.K.")
+Quote("Ça c'est la méthode pour celui qui sait rien", "Vincent V.K.")
+Quote("Sauf si ce que je vous ai raconté depuis le début est faux", "Vincent V.K.")
+Quote("Il y a la méthode des pôles simples, et la méthode des pôles pas simples", "Vincent V.K.")
+Quote("Il y en a qui ont déjà leur blouson, on va pouvoir le retirer car on va transpirer", "Vincent V.K.")
+Quote("Si vous avez pas DS, vous irez au café", "Vincent V.K.")
+Quote("Je vais réserver un hôtel à Londres pour le mois de décembre", "Vincent V.K.")
+Quote("La preuve est faite que 0 + 0 = 1", "Vincent V.K.")
+Quote("Si je restais couché et que je foutais rien, je serais payé pareil", "Vincent V.K.")
+Quote("Pariez avec moi, je vais gagner", "Vincent V.K.")
+Quote("Je dis pas que vous allez le faire sans réfléchir... Bah si, vous allez le faire sans réfléchir !", "Vincent V.K.")
+Quote("Il ne faut jamais réviser, il faut travailler régulièrement", "Vincent V.K.")
+Quote("Vous êtes des abrutis ! Le résultar, on s'en fou !", "Vincent V.K.")
+Quote("Si je remplace là dedans, je suis un idiot", "Vincent V.K.")
+Quote("Allez vous faire... Je ne dis plus de grossièretés", "Vincent V.K.")
+Quote("Oh si je vais prendre α, pour embêter le monde", "Vincent V.K.")
+Quote("Il parait qu'il est sourd, il est juste pas réveillé... J'avais pas envie de me lever ce matin", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -333,6 +349,11 @@ Quote("Le DS c'est toujours un moment de grande surprise...", "Stefano S.")
 Quote("On va éviter les artifices mathématiques", "Stefano S.")
 Quote("Ça permet de remonter le temps", "Stefano S.")
 Quote("Pour vous, votre professeur de physique ferait n'importe quoi !", "Stefano S.")
+Quote("La longueur de la corde ? Infini !", "Stefano S.")
+Quote("Si tu loupes ça, tu loupes l'essentiel", "Stefano S.")
+Quote("Ils sont pas bon en calcul, ou alors ils ont eu une défaillance", "Stefano S.")
+Quote("Vous faites ça au coucours, c'est suicidaire", "Stefano S.")
+Quote("Superman, il voit flou", "Stefano S.")
 
 
 # Citations de Baptiste
@@ -434,6 +455,7 @@ Quote("Qu'est ce que c'est bien de réfléchir", "Guillaume F.", 50)
 Quote("- Vous avez fait la fête ?\n- Oui", "Vincent V.K et Sammy S.A.", 50)
 Quote("Je pensais ne pas y arriver, et... je n'y suis pas arrivé", "Emilien G.", 50)
 Quote("Bah c'est une connaissance à avoir", "Loris B.", 50)
+Quote("Le volume c'est un kilo", "Fantine L.", 50)
 
 
 # Citations anonymes
