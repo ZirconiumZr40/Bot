@@ -274,6 +274,20 @@ Quote("Si je remplace là dedans, je suis un idiot", "Vincent V.K.")
 Quote("Allez vous faire... Je ne dis plus de grossièretés", "Vincent V.K.")
 Quote("Oh si je vais prendre α, pour embêter le monde", "Vincent V.K.")
 Quote("Il parait qu'il est sourd, il est juste pas réveillé... J'avais pas envie de me lever ce matin", "Vincent V.K.")
+Quote("Peut importe que ça se dise ou pas, je l'ai inventé", "Vincent V.K.")
+Quote("Ce serait bête hein !", "Vincent V.K.")
+Quote("Si vous me touez, c'est sûr que vous ne serez pas des élèves de prépa longtemps", "Vincent V.K.")
+Quote("Y'en a qui regardent par la fenêtre en signe de désespoir...", "Vincent V.K.")
+Quote("Si vous êtes plusieurs à enlever votre masque, je peux me faire un peu d'argent de poche", "Vincent V.K.")
+Quote("Il y en a parmis vous qui ne font que de la merde", "Vincent V.K.")
+Quote("La négation de ça, bah c'est la négation de ça", "Vincent V.K.")
+Quote("J'en ai conclu que vous aviez besoin de vacances", "Vincent V.K.")
+Quote("A mon âge, c'est normal d'oublier", "Vincent V.K.")
+Quote("Si vous avez l'esprit dérangé, vous pouvez prendre quelque chose d'encore plus tordu", "Vincent V.K.")
+Quote("Vous voyez, je ne me suis pas foutu de vous !", "Vincent V.K.")
+Quote("La chose la plus compliqué de ma journée, c'est de me lever", "Vincent V.K.")
+Quote("Tout ce qui est difficile est intéressant", "Vincent V.K.")
+Quote("Vous êtes des élèves de prépa, de MPSI, l'élite", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -354,6 +368,8 @@ Quote("Si tu loupes ça, tu loupes l'essentiel", "Stefano S.")
 Quote("Ils sont pas bon en calcul, ou alors ils ont eu une défaillance", "Stefano S.")
 Quote("Vous faites ça au coucours, c'est suicidaire", "Stefano S.")
 Quote("Superman, il voit flou", "Stefano S.")
+Quote("Voilà on a fait un peu de musique aujourd'hui", "Stefano S.")
+Quote("Méfiez vous des ampoules, c'est plus dangereux que la lave", "Stefano S.")
 
 
 # Citations de Baptiste
