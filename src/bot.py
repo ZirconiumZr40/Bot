@@ -156,6 +156,7 @@ async def count(ctx):
 async def wallpaper(ctx):
     # On préviens qu'on travail
     await ctx.send("Génération du fond d'écran...")
+    await ctx.message.delete()
 
     # On génère une image
     generate_image()
