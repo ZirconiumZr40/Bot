@@ -1,7 +1,7 @@
 """ Import des librairies & ressources """
 
 # Import de l'API
-from quart import Quart
+from quart import Quart, redirect
 from bot import bot
 from os import system
 
@@ -29,3 +29,13 @@ async def pull():
     await bot.logout()
     quit()
     return 'OK'
+
+# Liens discord (MPSI1)
+@app.route('/discord/mpsi1')
+async def discord_mpsi1():
+    return redirect('https://discord.gg/TMVjYg9N2f')
+
+# Liens discord (Option info)
+@app.route('/discord/info')
+async def discord_info():
+    return redirect('https://discord.gg/6YqB8Eqq')
