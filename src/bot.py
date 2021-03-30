@@ -318,6 +318,13 @@ async def music(ctx, url):
     await ctx.send('En cours de lecture : {}'.format(player.title))
 
 @bot.command()
+async def volume(ctx, volume: int):
+    if ctx.voice_client is None:
+        return await ctx.send("Je ne suis pas connecté à un canal audio !")
+    ctx.voice_client.source.volume = volume / 100
+    await ctx.send("Volume réglé à {}%".format(volume))
+
+@bot.command()
 async def finaudio(ctx):
     await ctx.voice_client.disconnect()
 
