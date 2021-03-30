@@ -15,6 +15,7 @@ from item_chest import generateItem
 from clear import clearChannel, emptyChannel
 from morpion import MorpionGame, MorpionHuman, MorpionComputer
 from img import generate_image
+from choux import envoyer_un_choux
 from music import YTDLSource
 
 # Import du random
@@ -155,14 +156,12 @@ async def count(ctx):
 
 @bot.command()
 async def wallpaper(ctx):
-    # On préviens qu'on travail
-    await ctx.send("Génération du fond d'écran...")
-    await ctx.message.delete()
-
     # On génère une image
-    generate_image()
+    async with ctx.typing():
+        generate_image()
 
     # On l'envoie
+    await ctx.message.delete()
     await ctx.send(file=File("wallpaper.jpg"))
 
 #
@@ -196,6 +195,17 @@ async def pileface(ctx):
 async def token(ctx):
     # On envoi le token
     await ctx.send("Le token est : Tm9uLCBsZSB0b2tlbiBuJ2VzdCBwYXMgYWNjZXNzaWJsZSBjb21tZSDDp2E")
+    await ctx.message.delete()
+
+# Commande de choux à la crème
+
+@bot.command()
+async def choux(ctx, target):
+    # On envoie un choux
+    async with ctx.typing():
+        envoyer_un_choux(target)
+
+    await ctx.send("Fais un tour dans ta boite mail ! (ça peut prendre quelques minutes)")
     await ctx.message.delete()
 
 

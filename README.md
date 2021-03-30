@@ -16,6 +16,7 @@ Pour cela, il vous faut créer un fork de ce repository, et le soumettre en pull
 | .count             | Affiche le nombre de citations enregistrées                |
 | .item              | Affiche un item de RPG                                     |
 | .pileface          | Simule un lancer de pièce                                  |
+| .choux "Email"     | Recevoir un choux à la crème par mail                      |
 | .morpion           | Démarre une partie de Morpion à deux                       |
 | .morpionbot        | Démarre une partie de Morpion joueur contre AI             |
 | .questionprepa     | Démarre une partie de Question pour un préparationiste     |
