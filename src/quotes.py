@@ -288,6 +288,16 @@ Quote("Vous voyez, je ne me suis pas foutu de vous !", "Vincent V.K.")
 Quote("La chose la plus compliqué de ma journée, c'est de me lever", "Vincent V.K.")
 Quote("Tout ce qui est difficile est intéressant", "Vincent V.K.")
 Quote("Vous êtes des élèves de prépa, de MPSI, l'élite", "Vincent V.K.")
+Quote("Je sais pas vraiment compter", "Vincent V.K.")
+Quote("En maths vous vivez dans un monde paisible, on est entre nous, personne ne vous mordra", "Vincent V.K.")
+Quote("Vous appelez ça une règle ? Je pensais que c'était pour frapper les élèves", "Vincent V.K.")
+Quote("En vieillisant on devient mou... Moi ya 30 ans, tu aurais vu les affaires sur ta table voler", "Vincent V.K.")
+Quote("Les gens qui portent pas leur masque je dois les mettre dehors, ou alors je peux les frapper avec un baton", "Vincent V.K.")
+Quote("Loris c'est vraiment l'enfant que personne n'a envie d'avoir", "Vincent V.K.")
+Quote("On peut aussi appeler les pompiers, mais je doute que ça marche", "Vincent V.K.")
+Quote("Si vous connaissez pas cette limite, ... je préfère ne rien dire", "Vincent V.K.")
+Quote("C'est pas mon jour, j'ai trop dormi", "Vincent V.K.")
+Quote("J'ai toujours un problème pour compter, ça s'aggrave avec le temps", "Vincent V.K.")
 
 
 # Citations de Stefano
@@ -370,6 +380,10 @@ Quote("Vous faites ça au coucours, c'est suicidaire", "Stefano S.")
 Quote("Superman, il voit flou", "Stefano S.")
 Quote("Voilà on a fait un peu de musique aujourd'hui", "Stefano S.")
 Quote("Méfiez vous des ampoules, c'est plus dangereux que la lave", "Stefano S.")
+Quote("Ça marche moins bien quand on triche pas", "Stefano S.")
+Quote("Là c'est comme se donner un coup de pioche dans les pieds", "Stefano S.")
+Quote("T'as jamais utilisé un tourne vis de ta vie toi ?", "Stefano S.")
+Quote("J'ai plus le temps pour les questions !", "Stefano S.")
 
 
 # Citations de Baptiste
