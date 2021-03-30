@@ -1,5 +1,7 @@
 pytest
-discord.py
+discord.py[voice]
 python-dotenv
 quart
 Pillow
+youtube_dl
+ffmpeg

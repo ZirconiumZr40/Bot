@@ -6,7 +6,7 @@ from io import BytesIO
 
 # Importation de l'API Discord
 from discord.ext import commands
-from discord import Embed, Game, File
+from discord import Embed, Game, File, VoiceChannel
 
 # On importe nos ressources
 from helper import isAlmostEqual
@@ -15,6 +15,7 @@ from item_chest import generateItem
 from clear import clearChannel, emptyChannel
 from morpion import MorpionGame, MorpionHuman, MorpionComputer
 from img import generate_image
+from music import YTDLSource
 
 # Import du random
 from random import randint
@@ -297,3 +298,36 @@ async def on_message(message):
 
             # On s'arrete
             break
+
+#
+# Commandes pour la musique
+#
+
+@bot.command()
+async def audio(ctx):
+    channel = ctx.author.voice.channel
+    if ctx.voice_client is not None:
+        return await ctx.voice_client.move_to(channel)
+    await channel.connect()
+
+@bot.command()
+async def music(ctx, url):
+    async with ctx.typing():
+        player = await YTDLSource.from_url(url, loop=bot.loop, stream=True)
+        ctx.voice_client.play(player, after=lambda e: print('Erreur de lecture : %s' % e) if e else None)
+    await ctx.send('En cours de lecture : {}'.format(player.title))
+
+@bot.command()
+async def finaudio(ctx):
+    await ctx.voice_client.disconnect()
+
+@music.before_invoke
+async def ensure_voice(ctx):
+    if ctx.voice_client is None:
+        if ctx.author.voice:
+            await ctx.author.voice.channel.connect()
+        else:
+            await ctx.send("Vous n'êtes pas connecté à un canal audio !")
+            raise commands.CommandError("Author not connected to a voice channel.")
+    elif ctx.voice_client.is_playing():
+        ctx.voice_client.stop()
